@@ -1,23 +1,25 @@
-# TÍTULO DO PROJETO
+# Crypto Conversor
 
-`CURSO`
+`Análise e Desenvolvimento de Sistemas`
 
-`DISCIPLINA`
+`Projeto: Crypto Conversor`
 
-`SEMESTRE`
+`Primeiro Semestre - 2022/01`
 
 Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* <a href="https://github.com/iagxferreira">Iago José Silva Ferreira</a>
+* <a href="https://github.com/tprates">Thiago Costa Prates</a>
+* <a href="https://github.com/RENANCC1994">Renan Costa Cunha</a>
+* <a href="https://github.com/gamirca">Gabriel Miranda Cangussu</a>
+* <a href="https://github.com/aarondalla">Aaron Duarte Dalla</a>
+* <a href="https://github.com/mths1094">Matheus Henique Rodrigues</a>
 
 ## Orientador
 
-* Nome completo do professor 1
+* Joyce Christina De Paiva Carvalho
 
 ## Instruções de utilização
 
