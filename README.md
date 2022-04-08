@@ -10,12 +10,13 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 
 ## Integrantes
 
-* <a href="https://github.com/iagxferreira">Iago José Silva Ferreira</a>
-* <a href="https://github.com/tprates">Thiago Costa Prates</a>
-* <a href="https://github.com/RENANCC1994">Renan Costa Cunha</a>
-* <a href="https://github.com/gamirca">Gabriel Miranda Cangussu</a>
 * <a href="https://github.com/aarondalla">Aaron Duarte Dalla</a>
+* <a href="https://github.com/gamirca">Gabriel Miranda Cangussu</a>
+* <a href="https://github.com/iagxferreira">Iago José Silva Ferreira</a>
 * <a href="https://github.com/mths1094">Matheus Henique Rodrigues</a>
+* <a href="https://github.com/RENANCC1994">Renan Costa Cunha</a>
+* <a href="https://github.com/Tafarel-Mello">Tafarel Luis de Mello</a>
+* <a href="https://github.com/tprates">Thiago Costa Prates</a>
 
 ## Orientador
 
