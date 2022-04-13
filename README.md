@@ -28,7 +28,7 @@ Nosso foco será melhorar a experiencia do usuário e trazer um pouco de luz a e
 
 * Site publicado na Internet
 * Acesse o projeto pelo computador ou pelo celular
-* Browser compativel: Chrome, Firefox e Edge
+* Browser compatível: Chrome, Firefox e Edge
 
 # Documentação
 
