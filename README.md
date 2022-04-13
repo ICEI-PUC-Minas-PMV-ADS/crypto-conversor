@@ -1,27 +1,34 @@
-# TÍTULO DO PROJETO
+# CRYPTO-CONVERSOR 
 
-`CURSO`
+`Análise e Desenvolvimento de Sistemas`
 
-`DISCIPLINA`
+`Projeto: Desenvolvimento de Aplicação Web Front-End - Turma 2`
 
-`SEMESTRE`
+`1º Semestre`
+#
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Nosso projeto chama-se **CRYPTO-CONVERSOR**, uma calculadora de conversões de criptomoedas rápida e de fácil utilização com o intuito de melhorar a experiencia de investidores e ajudar integração daqueles que querem começar neste universo monetário digital.
+Nosso foco será melhorar a experiencia do usuário e trazer um pouco de luz a este assunto muitas vezes cobiçado pelos possíveis ganhos mas temido pela falta de informações de fácil entendimento e pela linguagem própria deste mercado.
 
-## Integrantes
+# Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Aaron Duarte Dalla
+* Gabriel Miranda Cangussu
+* Iago José Silva Ferreira
+* Matheus Henrique Rodrigues
+* Renan Costa Cunha
+* Tafarel Luis de Mello
+* Thiago Costa Prates
 
-## Orientador
+# Orientador
 
-* Nome completo do professor 1
+* Joyce Christina de Paiva Carvalho
 
-## Instruções de utilização
+# Instruções de utilização
 
-Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
+* Site publicado na Internet
+* Acesse o projeto pelo computador ou pelo celular
+* Browser compativel: Chrome, Firefox e Edge
 
 # Documentação
 
@@ -39,10 +46,8 @@ Assim que a primeira versão do sistema estiver disponível, deverá complementa
 <li><a href="docs/11-Referências.md"> Referências</a></li>
 </ol>
 
-# Código
 
-<li><a href="src/README.md"> Código Fonte</a></li>
 
 # Apresentação
 
-<li><a href="presentation/README.md"> Apresentação da solução</a></li>
+<li><a href="presentation/README.md">Clique aqui para ver nossa apresentação!</a></li>
