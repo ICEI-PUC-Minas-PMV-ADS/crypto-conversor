@@ -3,7 +3,7 @@
 O tema criptomoedas vem ganhando relevância no mundo e despertando interesse de milhares de pessoas, envolvendo desde entusiastas e investidores amadores até profissionais e traders institucionais. A instituição de pesquisa social National Opinion Research Center at the University of Chicago (NORC) constatou que, no ano de 2021, de cada dez americanos, ao menos dois investiram no mercado de criptomoedas . A mesma pesquisa apurou que os investidores em criptoativos são relativamente mais jovens se comparados aos que investem nos tradicionais mercados de ações, o que demonstra o grande potencial de uma área ainda a ser explorada. Além disso, também restou demonstrado que os “crypto investors” confiam nas informações oriundas das plataformas digitais a respeito do tema. Frente ao exposto, e buscando aproveitar um mercado em crescimento, o presente projeto consiste na criação de uma calculadora que permita conversões rápidas entre preços de diferentes ativos.
 
 ## Problema
-***
+
 
 Quanto vale uma carteira composta por 3,22 eth, 3.502 thg e 0,8 btc? Essa pergunta evidencia o problema a ser abordado no presente trabalho, qual seja, a dificuldade em saber efetivamente quanto vale um criptoativo ou uma carteira de criptoativos. Em outras palavras, considerando a diversidade de moedas, tokens, nfts, dentre outros ativos, é de suma importância para o investidor conseguir transformar a cotação dos criptoativos em algo que faça sentido em termos de valor. 
 
@@ -12,7 +12,7 @@ Quanto vale uma carteira composta por 3,22 eth, 3.502 thg e 0,8 btc? Essa pergun
 
 
 ## Objetivos
-***
+
 
 Tendo em vista os problemas supracitados, os objetivos do projeto proposto são: 
 

@@ -3,7 +3,7 @@
 Com base nos estudos e pesquisas desenvolvidos pelo grupo em parceria com usuários reais, levando em consideração suas necessidades e dificuldades do dia a dia, podemos agora consolidar estas propostas de melhoria em forma de *personas* e *histórias de usuário*.
 
 ## Personas
-***
+
 
 As personas inclusas durante o processo de pesquisa e desenvolvimento do problema são apresentadas nas imagens a seguir:
 
@@ -26,7 +26,7 @@ As personas inclusas durante o processo de pesquisa e desenvolvimento do problem
 
 
 ## Histórias de Usuários
-***
+
 Entrar historias de usuarios
 * historia 1
 * historia 2
