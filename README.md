@@ -4,21 +4,20 @@
 
 `Projeto: Desenvolvimento de Aplicação Web Front-End - Turma 2`
 
-`1º Semestre`
-#
+`Primeiro Semestre - 2022/01`
 
 Nosso projeto chama-se **CRYPTO-CONVERSOR**, uma calculadora de conversões de criptomoedas rápida e de fácil utilização com o intuito de melhorar a experiencia de investidores e ajudar integração daqueles que querem começar neste universo monetário digital.
 Nosso foco será melhorar a experiencia do usuário e trazer um pouco de luz a este assunto muitas vezes cobiçado pelos possíveis ganhos mas temido pela falta de informações de fácil entendimento e pela linguagem própria deste mercado.
 
 # Integrantes
 
-* Aaron Duarte Dalla
-* Gabriel Miranda Cangussu
-* Iago José Silva Ferreira
-* Matheus Henrique Rodrigues
-* Renan Costa Cunha
-* Tafarel Luis de Mello
-* Thiago Costa Prates
+* <a href="https://github.com/aarondalla">Aaron Duarte Dalla</a>
+* <a href="https://github.com/gamirca">Gabriel Miranda Cangussu</a>
+* <a href="https://github.com/iagxferreira">Iago José Silva Ferreira</a>
+* <a href="https://github.com/mths1094">Matheus Henique Rodrigues</a>
+* <a href="https://github.com/RENANCC1994">Renan Costa Cunha</a>
+* <a href="https://github.com/Tafarel-Mello">Tafarel Luis de Mello</a>
+* <a href="https://github.com/tprates">Thiago Costa Prates</a>
 
 # Orientador
 
