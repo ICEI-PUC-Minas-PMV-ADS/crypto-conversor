@@ -3,7 +3,9 @@
 
 <span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
 
-Descreva aqui a metodologia de trabalho do grupo para atacar o problema. Definições sobre os ambiente de trabalho utilizados pela  equipe para desenvolver o projeto. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times).
+A aplicação será desenvolvida com base no protocolo HTTP, utilizando a linguagem de marcação HTML5 com formatação em CSS. A programação da aplicação será feita em (a definir) fazendo-se uso da ferramenta Visual Studio Code.
+Todo versionamento do projeto será feito via Git com repositório GitHub. Utilizaremos a metodologia ágil SCRUM.
+
 
 ## Controle de Versão
 

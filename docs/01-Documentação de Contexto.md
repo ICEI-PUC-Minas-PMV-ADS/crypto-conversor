@@ -7,6 +7,7 @@ O tema criptomoedas vem ganhando relevância no mundo e despertando interesse de
 
 Quanto vale uma carteira composta por 3,22 eth, 3.502 thg e 0,8 btc? Essa pergunta evidencia o problema a ser abordado no presente trabalho, qual seja, a dificuldade em saber efetivamente quanto vale um criptoativo ou uma carteira de criptoativos. Em outras palavras, considerando a diversidade de moedas, tokens, nfts, dentre outros ativos, é de suma importância para o investidor conseguir transformar a cotação dos criptoativos em algo que faça sentido em termos de valor. 
 
+
 > **Links Úteis**:
 > - [PAXFUL, Site que oferece serviço similar ao proposto em nosso projeto](https://paxful.com/pt-br/calculator)
 
