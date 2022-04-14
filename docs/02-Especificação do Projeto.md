@@ -27,10 +27,19 @@ As personas inclusas durante o processo de pesquisa e desenvolvimento do problem
 
 ## Histórias de Usuários
 
-Entrar historias de usuarios
-* historia 1
-* historia 2
-* etc.
+A partir do entendimento das necessidades expostas por cada persona, registramos então as seguintes histórias de usuários.
+
+|Eu como... |...quero/desejo...| ... para...|
+|-----------|------------------|------------|
+|Tamires Leticia de Mello|Acompanhar a flutuação de preços de uma determinada criptomoeda para saber se é um investimento seguro ou não|Sua maior preocupação é ingressar em investimentos equivocados e perder dinheiro|
+|Geneci dos Santos|Uma ferramenta que mostre as principais criptomoedas do mercado de forma fácil e simples|Poder debater com seus filhos qual a melhor opção de investimento|
+|Geneci dos Santos|Uma ferramenta que possibilite identificar visualmente as criptomoedas|Identificar de maneira simples e rápida a cotação das criptomoedas|
+|Leonardo Jacques|Verificar as criptomoedas que estão valorizadas no momento de maneira rápida|Necessita de agilidade, visto que não tem muito tempo para se dedicar ao estudo mais avançado do mercado|
+|Rafael Luis|Uma ferramenta de fácil visualização da cotação das criptomoedas|Agilizar a tomada de decisão de qual moeda investir|
+|Rafael Luis|Realizar a pesquisa do valor de uma criptomoeda específica|Localizar rapidamente uma moeda que já é de seu interesse ou de sua carteira|
+|Rafael Luis|Utilizar a ferramenta também pelo celular|Se manter informado em momentos que não tiver acesso ao desktop|
+|Rafael Luis|Cadastrar sua carteira composta por criptoativos e moedas fiduciárias|cotar o valor de sua carteira em uma moeda ou criptoativo de sua escolha|
+
 
 
 ## Requisitos
