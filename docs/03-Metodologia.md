@@ -14,8 +14,8 @@ Ambiente                                 | Plataforma  |  Link de Acesso
 -----------------------------------------|-------------|---------------------------------------------------------------
  Repositório de código fonte             |  GitHub     |  https://github.com/ICEI-PUC-Minas-PMV-ADS/crypto-conversor   
  Documentos do projeto                   |             |
- Projeto de Interface e  Wireframes      |             |
- Gerenciamento do Projeto                |  Trello     | https://trello.com/b/OgaaFkog/projeto-cripto
+ Projeto de Interface e  Wireframes      |  Figma      |  https://www.figma.com/file/SIyHLd7Ac93NYTJUTCdpuw/Crypto-Project?node-id=0%3A1
+ Gerenciamento do Projeto                |  Trello     |  https://trello.com/b/OgaaFkog/projeto-cripto
       
                        
 ## Controle de Versão
