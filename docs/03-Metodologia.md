@@ -6,7 +6,18 @@
 A aplicação será desenvolvida com base no protocolo HTTP, utilizando a linguagem de marcação HTML5 com formatação em CSS. A programação da aplicação será feita em (a definir) fazendo-se uso da ferramenta Visual Studio Code.
 Todo versionamento do projeto será feito via Git com repositório GitHub. Utilizaremos a metodologia ágil SCRUM.
 
+<b>Relação de Ambientes de Trabalho</b></br>
 
+Os artefatos do projeto são elaborados a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito é apresentada conforme a tabela a seguir:
+
+Ambiente                                 | Plataforma  |  Link de Acesso
+-----------------------------------------|-------------|---------------------------------------------------------------
+ Repositório de código fonte             |  GitHub     |  https://github.com/ICEI-PUC-Minas-PMV-ADS/crypto-conversor   
+ Documentos do projeto                   |             |
+ Projeto de Interface e  Wireframes      |             |
+ Gerenciamento do Projeto                |  Trello     | https://trello.com/b/OgaaFkog/projeto-cripto
+      
+                       
 ## Controle de Versão
 
 A ferramenta de controle de versão adotada no projeto foi o
