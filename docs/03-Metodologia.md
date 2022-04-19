@@ -3,8 +3,21 @@
 
 <span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
 
-Descreva aqui a metodologia de trabalho do grupo para atacar o problema. Definições sobre os ambiente de trabalho utilizados pela  equipe para desenvolver o projeto. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times).
+A aplicação será desenvolvida com base no protocolo HTTP, utilizando a linguagem de marcação HTML5 com formatação em CSS. A programação da aplicação será feita em (a definir) fazendo-se uso da ferramenta Visual Studio Code.
+Todo versionamento do projeto será feito via Git com repositório GitHub. Utilizaremos a metodologia ágil SCRUM.
 
+<b>Relação de Ambientes de Trabalho</b></br>
+
+Os artefatos do projeto são elaborados a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito é apresentada conforme a tabela a seguir:
+
+Ambiente                                 | Plataforma  |  Link de Acesso
+-----------------------------------------|-------------|---------------------------------------------------------------
+ Repositório de código fonte             |  GitHub     |  https://github.com/ICEI-PUC-Minas-PMV-ADS/crypto-conversor   
+ Documentos do projeto                   |             |
+ Projeto de Interface e  Wireframes      |  Figma      |  https://www.figma.com/file/SIyHLd7Ac93NYTJUTCdpuw/Crypto-Project?node-id=0%3A1
+ Gerenciamento do Projeto                |  Trello     |  https://trello.com/b/OgaaFkog/projeto-cripto
+      
+                       
 ## Controle de Versão
 
 A ferramenta de controle de versão adotada no projeto foi o

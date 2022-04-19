@@ -1,46 +1,44 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+O tema criptomoedas vem ganhando relevância no mundo e despertando interesse de milhares de pessoas, envolvendo desde entusiastas e investidores amadores até profissionais e traders institucionais. A instituição de pesquisa social National Opinion Research Center at the University of Chicago (NORC) constatou que, no ano de 2021, de cada dez americanos, ao menos dois investiram no mercado de criptomoedas . A mesma pesquisa apurou que os investidores em criptoativos são relativamente mais jovens se comparados aos que investem nos tradicionais mercados de ações, o que demonstra o grande potencial de uma área ainda a ser explorada. Além disso, também restou demonstrado que os “crypto investors” confiam nas informações oriundas das plataformas digitais a respeito do tema. Frente ao exposto, e buscando aproveitar um mercado em crescimento, o presente projeto consiste na criação de uma calculadora que permita conversões rápidas entre preços de diferentes ativos.
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
 
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
+Quanto vale uma carteira composta por 3,22 eth, 3.502 thg e 0,8 btc? Essa pergunta evidencia o problema a ser abordado no presente trabalho, qual seja, a dificuldade em saber efetivamente quanto vale um criptoativo ou uma carteira de criptoativos. Em outras palavras, considerando a diversidade de moedas, tokens, nfts, dentre outros ativos, é de suma importância para o investidor conseguir transformar a cotação dos criptoativos em algo que faça sentido em termos de valor. 
+
 
 > **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+> - [PAXFUL, Site que oferece serviço similar ao proposto em nosso projeto](https://paxful.com/pt-br/calculator)
+
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+Tendo em vista os problemas supracitados, os objetivos do projeto proposto são: 
 
-## Justificativa
+### Objetivo geral
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+ Desenvolver uma ferramenta ágil, gratuita e de fácil utilização que permita registrar carteiras com diversos criptoativos e que possibilite uma visualização rápida da relação entre as criptomoedas e a moeda de realidade do usuário. Em outras palavras, uma ferramenta que ajude na visualização dos ativos e torne mais fácil as conversões necessárias do dia a dia.
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+### Objetivos especifícos
 
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+1. Desenvolver um site que permita visualizar o preço de diversos criptoativos;
+2. Converter rapidamente preços de criptoativos e moedas fiduciárias;
+3.	Montar uma carteira por meio de registro de diversos criptoativos e exprimir seu valor em uma determinada moeda escolhida;
 
-## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
+# Justificativa
 
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
+Entender o mercado de criptos não é tarefa simples. Aqueles que se aventuram nesse universo acabam se deparando com diversos termos, tais como: altcoin, proof of work, proof of stake, nft, token, blockchain, mint e cold wallet, dentre outros. Além da complexidade do tema, a existência de muitas informações não facilita o trabalho dos interessados, pois não é tarefa simples encontrar sites confiáveis e que tratem do assunto de forma simples e acessível.
+
+Considerando o exposto, torna-se relevante desenvolver espaços nos quais o investidor, principalmente os iniciantes, possam acessar facilmente e de maneira simples dados e informações importantes do universo cripto. Dentre estas informações, conseguir identificar rapidamente a cotação de uma determinada moeda ou token e realizar conversões entre elas é relevante para que o investidor tenha noção do preço do ativo de seu interesse. Principalmente ao se constatar a existência de milhares de tokens e nfts espalhados por diversas blockchains, tais como polkadot, avalanche, binance smart chain, canary, ethereum, solana e bitcoin. Exemplificando, ao se deparar com um nft no valor de 3,22 eth, qual seria o preço equivalente em reais? Quanto custa um ativo que está cotado a 33 thg ou 1.134 mist? Nesse sentido, uma calculadora de criptomoedas, como aqui proposto, certamente contribuirá com todos os interessados neste novel universo, pois, é uma plataforma digital de obtenção de dados necessários às operações relativas aos criptoativos.
 
 > **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+> - [Artigo sobre o futuro da criptomoeda](https://cointelegraph.com.br/news/bitcoin-is-the-future-it-is-our-protection-against-inflation-says-secretary-of-economic-development-of-rio-de-janeiro)
+
+# Público-Alvo
+
+Embora todos os “crypto investors” possam se beneficiar com a cotação das criptomoedas, o projeto visa como público-alvo investidores iniciantes e entusiastas no mercado de criptoativos, com perfil de investimento agressivo ou arrojado, de todas as idades, que utilizarão a ferramenta para tomada de decisões acerca das melhores opções de investimento ou negociações no dia a dia do mercado.
+
+

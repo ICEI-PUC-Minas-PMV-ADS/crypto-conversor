@@ -1,44 +1,71 @@
 # Especificações do Projeto
 
-<span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
-
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
-
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
+Com base nos estudos e pesquisas desenvolvidos pelo grupo em parceria com usuários reais, levando em consideração suas necessidades e dificuldades do dia a dia, podemos agora consolidar estas propostas de melhoria em forma de *personas* e *histórias de usuário*.
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
+As personas inclusas durante o processo de pesquisa e desenvolvimento do problema são apresentadas nas imagens a seguir:
 
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+## `TAMIRES LETICIA DE MELLO`
+
+
+| ![persona 1-edit](https://user-images.githubusercontent.com/93105125/163296843-f40d3ca4-f3cb-4659-ad5f-775d53c7b8c4.png)| Tamires Leticia de Mello, 32 anos |
+| --- | --- |
+| Ocupação | Designer de bolsas e sapatos |
+| Aplicativos preferidos | Instagram, Facebook, Spotify e aplicativos de bancos |
+| Motivações | Ainda não entrou no mercado de investimentos por falta de informações solidas, está em busca destas bases |
+| Seus Hobbies | Séries, passear com a mãe, sair com amigos |
+| Frustrações? | Ver amigos ganhando dinheiro com investimentos em criptoativos e não saber por onde começar a investir de forma segura |
+
+## `Leonardo Jacques`
+
+| ![persona 2-edit](https://user-images.githubusercontent.com/93105125/163297709-eadeb0bb-c882-4206-b2eb-fc9cc769bd57.png) | Leonardo Jacques, 36 anos |
+| --- | --- |
+| Ocupação | Operador de máquinas CNC |
+| Aplicativos preferidos | Facebook, LinkedIn, Watsapp e Instagram |
+| Motivações | Iniciou sua pequena empresa em meio a pandemia e quer continuar investindo no mercado digital |
+| Seus Hobbies | Futebol, estar com sua filha e esposa, churrasco com os amigos |
+| Frustrações? | Não conseguir tempo para se dedicar ao estudo de criptoativos e acompanhar uma carteira de investimentos |
+
+## `Geneci dos Santos`
+
+| ![persona 4-edit](https://user-images.githubusercontent.com/93105125/163298133-dc2a571d-5b3e-4c43-9ad8-7cd4df1b4f95.png) | Geneci dos Santos, 63 anos |
+| --- | --- |
+| Ocupação | Recém aposentada |
+| Aplicativos preferidos | Facebook e Watsapp |
+| Motivações | Está sendo muito incentivada por seus filhos a investir seus rendimentos em algo melhor que a caderneta de poupança convencional |
+| Seus Hobbies | Cuidar de seus netos e do sítio onde mora |
+| Frustrações? | O mercado de criptoativos é complexo de se ingressar |
+
+## `Rafael Luis`
+
+| ![persona 3-edit](https://user-images.githubusercontent.com/93105125/163298476-3d2c9ee8-36b1-4f8a-bc09-eeaef548c772.png) | Rafael Luis, 35 anos |
+| --- | --- |
+| Ocupação | Técnico em informática |
+| Aplicativos preferidos | Facebook, Watsapp, LinkedIn e aplicativos de bancos |
+| Motivações | Já ativo no mercado digital, na posição de empresário, busca diversificar suas fontes de renda em investimentos mais dinâmicos |
+| Seus Hobbies | Futebol com os amigos, ir ao estádio do seu time e estar com sua esposa e filha |
+| Frustrações? | Não conseguir acompanhar sua carteira de criptomoedas de forma rápida e consistente |
+
+
 
 ## Histórias de Usuários
 
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
+A partir do entendimento das necessidades expostas por cada persona, registramos então as seguintes histórias de usuários.
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|Eu como...`PERSONA` |...quero/desejo...`FUNCIONALIDADE`| ... para...`MOTIVO/VALOR`|
+|-----------|------------------|------------|
+|Tamires Leticia de Mello|Acompanhar a flutuação de preços de uma determinada criptomoeda para saber se é um investimento seguro ou não|Sua maior preocupação é ingressar em investimentos equivocados e perder dinheiro|
+|Geneci dos Santos|Uma ferramenta que mostre as principais criptomoedas do mercado de forma fácil e simples|Poder debater com seus filhos qual a melhor opção de investimento|
+|Geneci dos Santos|Uma ferramenta que possibilite identificar visualmente as criptomoedas|Identificar de maneira simples e rápida a cotação das criptomoedas|
+|Leonardo Jacques|Verificar as criptomoedas que estão valorizadas no momento de maneira rápida|Necessita de agilidade, visto que não tem muito tempo para se dedicar ao estudo mais avançado do mercado|
+|Rafael Luis|Uma ferramenta de fácil visualização da cotação das criptomoedas|Agilizar a tomada de decisão de qual moeda investir|
+|Rafael Luis|Realizar a pesquisa do valor de uma criptomoeda específica|Localizar rapidamente uma moeda que já é de seu interesse ou de sua carteira|
+|Rafael Luis|Utilizar a ferramenta também pelo celular|Se manter informado em momentos que não tiver acesso ao desktop|
+|Rafael Luis|Cadastrar sua carteira composta por criptoativos e moedas fiduciárias e comparar valores fazendo conversões de forma rápida|cotar o valor de sua carteira em uma moeda ou criptoativo de sua escolha|
 
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
 
 ## Requisitos
 
@@ -46,46 +73,34 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+| ID   | Descrição do Requisito  | Prioridade |
+|---|---|---|
+| RF-001 | O site apresentará na página principal a cotação de algumas criptomoedas que estiverem em alta. Serão obtidas via API.| ALTA | 
+| RF-002 | O site permitirá ao usuário informar a moeda fiduciária e/ou criptoativo "de entrada” e a moeda fiduciária e/ou criptoativo "alvo” para conversão. | ALTA |
+| RF-003 | O site permitirá ao usuário informar várias moedas fiduciárias e/ou criptoativos "de entrada” e converter os valores obtidos para outra moeda fiduciária e/ou criptoativo "alvo”. | ALTA |
+| RF-004 | O site apresentará para cada moeda fiduciária e/ou criptoativo um ícone correspondente para rápida identificação visual. | MÉDIA |
+| RF-005 | O site terá uma funcionalidade que permita ao usuário informar uma carteira composta por diversas moedas fiduciárias e/ou criptoativos e expressar os valores obtidos em uma outra moeda e/ou criptoativo escolhido pelo usuário. | MÉDIA |
 
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
-|-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|---|---|---|
+| RNF-001 | O site deverá ser publicado na internet. | MÉDIA | 
+| RNF-002 | O site deverá ser responsivo. | MÉDIA | 
+| RNF-003 | O site poderá ser acessado por diversos navegadores, inclusive pelo celular. | MÉDIA |
 
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
+
 
 ## Restrições
 
-O projeto está restrito pelos itens apresentados na tabela a seguir.
+As questões que limitam a execução desse projeto e que se configuram como obrigações claras para o desenvolvimento do projeto em questão são apresentadas na tabela a seguir.
 
-|ID| Restrição                                             |
-|--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
+|ID| Descrição da Restrição  |
+|--|---|
+|RE-01| O projeto deverá ter seu código versionado utilizando Git. |
+|RE-02| A equipe não deve terceirizar o desenvolvimento do trabalho. |
+|RE-03| Não haverá investimento financeiro no projeto. |
 
 
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
