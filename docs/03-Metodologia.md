@@ -14,8 +14,7 @@ Ambiente                                 | Plataforma  |  Link de Acesso
  Repositório de código fonte             |  GitHub     |  https://github.com/ICEI-PUC-Minas-PMV-ADS/crypto-conversor   
  Documentos do projeto                   |             |
  Projeto de Interface e  Wireframes      |  Figma      |  https://www.figma.com/file/SIyHLd7Ac93NYTJUTCdpuw/Crypto-Project?node-id=0%3A1
- Gerenciamento do Projeto                |  Trello     |  https://trello.com/b/OgaaFkog/projeto-cripto
-                                         |             |  https://github.com/ICEI-PUC-Minas-PMV-ADS/crypto-conversor/projects
+ Gerenciamento do Projeto                |  Trello     |  https://trello.com/b/OgaaFkog/projeto-cripto </br> https://github.com/ICEI-PUC-Minas-PMV-ADS/crypto-conversor/projects
       
                        
 ## Controle de Versão
@@ -26,48 +25,47 @@ foi utilizado para hospedagem do repositório.
 
 O projeto segue a seguinte convenção para o nome de branches:
 
-- `main`: versão estável já testada do software
-- `unstable`: versão já testada do software, porém instável
-- `testing`: versão em testes do software
-- `dev`: versão de desenvolvimento do software
+- `main`: versão estável já testada do software;
+- `unstable`: versão já testada do software, porém instável;
+- `testing`: versão em testes do software;
+- `dev`: versão de desenvolvimento do software.
+
+A *branch* **main** será utilizada para versões que estão prontas para produção. Ela será replicada na *branch* **dev**, que conterá versões em desenvolvimento e ainda passíveis de teste. A *branch* **teste** será usada para a realização de testes nos código para preparaçao para produção. Caso problemas sejam identificados, as correções serão isoladas na *branch* **unstable** de modo a estabilizar a versão que entrará em produção.
 
 Quanto à gerência de issues, o projeto adota a seguinte convenção para
 etiquetas:
 
-- `documentation`: melhorias ou acréscimos à documentação
-- `bug`: uma funcionalidade encontra-se com problemas
-- `enhancement`: uma funcionalidade precisa ser melhorada
-- `feature`: uma nova funcionalidade precisa ser introduzida
-
-Discuta como a configuração do projeto foi feita na ferramenta de versionamento escolhida. Exponha como a gerência de tags, merges, commits e branchs é realizada. Discuta como a gerência de issues foi realizada.
-
-> **Links Úteis**:
-> - [Tutorial GitHub](https://guides.github.com/activities/hello-world/)
-> - [Git e Github](https://www.youtube.com/playlist?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
->  - [Comparando fluxos de trabalho](https://www.atlassian.com/br/git/tutorials/comparing-workflows)
-> - [Understanding the GitHub flow](https://guides.github.com/introduction/flow/)
-> - [The gitflow workflow - in less than 5 mins](https://www.youtube.com/watch?v=1SXpE08hvGs)
+- `documentation`: melhorias ou acréscimos à documentação;
+- `bug`: uma funcionalidade encontra-se com problemas;
+- `enhancement`: uma funcionalidade precisa ser melhorada;
+- `feature`: uma nova funcionalidade precisa ser introduzida.
 
 ## Gerenciamento de Projeto
 
-### Divisão de Papéis
+Conforme citado, a equipe utilizará a metodologia *scrum*, de modo que haverá esforços concentrados e incrementais divididos em *sprints* que durarão, como regra, 2 semanas.
 
-Apresente a divisão de papéis entre os membros do grupo.
+A equipe está organizada da seguinte forma:
 
-> **Links Úteis**:
-> - [11 Passos Essenciais para Implantar Scrum no seu 
-> Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
+* *Scrum master*: Aaron Duarte Dalla
+* *Product owner*: Iago José Silva Ferreira
+* Equipe de desenvolvimento
+    * Gabriel Miranda Cangussu
+    * Matheus Henique Rodrigues
+    * Thiago Costa Prates
+* Equipe de *design*:
+    * Tafarel Luis de Mello
+    * Renan Costa Cunha
 
-### Processo
+A metodologia *scrum* foi conjugada com o método *kanban* de forma a tornar visual a distribuição de tarefas, o que está sendo feito por meio da ferramenta *projects* do *github*. As raias existentes são:
 
-Coloque  informações sobre detalhes da implementação do Scrum seguido pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
- 
-> **Links Úteis**:
-> - [Project management, made simple](https://github.com/features/project-management/)
-> - [Sobre quadros de projeto](https://docs.github.com/pt/github/managing-your-work-on-github/about-project-boards)
-> - [Como criar Backlogs no Github](https://www.youtube.com/watch?v=RXEy6CFu9Hk)
-> - [Tutorial Slack](https://slack.com/intl/en-br/)
+* *Backlog*: contém as tarefas identificadas e necessárias para a criação do produto;
+* *To do*: contém as tarefas que serão incluídas na *sprint*;
+* *In progress*: contém as tarefas que foram iniciadas e estão em desenvolvimento;
+* *Test*: contém as tarefas que foram concluídas e serão checadas, de forma a se controlar a qualidade do desenvolvimento;
+* *Done*: contém as tarefas que foram concluídas e testadas;
+* *Locked*: nesta coluna são colocadas tarefas que foram paralisadas em razão de algum motivo impeditivo que precisa de solução.
+
+
 
 ### Ferramentas
 
