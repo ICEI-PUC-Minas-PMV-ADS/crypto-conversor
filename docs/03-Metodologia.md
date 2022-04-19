@@ -65,7 +65,10 @@ A metodologia *scrum* foi conjugada com o método *kanban* de forma a tornar vis
 * *Done*: contém as tarefas que foram concluídas e testadas;
 * *Locked*: nesta coluna são colocadas tarefas que foram paralisadas em razão de algum motivo impeditivo que precisa de solução.
 
-![Kanboard](C:\Users\aaron\OneDrive\PUC - Analise e desenvolvimento de sistemas\Modulo 1\Projeto semestre 01\crypto-conversor\docs\img\Kanboard cryptoconversor.PNG)
+A figura abaixo ilustra a utilização do *kanboard*:
+
+![Kanboard cryptoconversor](https://user-images.githubusercontent.com/51962729/164113733-03838b91-5af2-4150-99bb-5ad67079d3cc.PNG)
+
 
 ### Ferramentas
 
