@@ -65,9 +65,11 @@ A metodologia *scrum* foi conjugada com o método *kanban* de forma a tornar vis
 * *Done*: contém as tarefas que foram concluídas e testadas;
 * *Locked*: nesta coluna são colocadas tarefas que foram paralisadas em razão de algum motivo impeditivo que precisa de solução.
 
-
+![Kanboard](C:\Users\aaron\OneDrive\PUC - Analise e desenvolvimento de sistemas\Modulo 1\Projeto semestre 01\crypto-conversor\docs\img\Kanboard cryptoconversor.PNG)
 
 ### Ferramentas
+
+As ferramentas utilizadas no projeto estão abaixo enumeradas:
 
 **Editores de Código:**
 
@@ -87,26 +89,9 @@ A metodologia *scrum* foi conjugada com o método *kanban* de forma a tornar vis
 > - [Draw.io](https://drawio-app.com/): Ferramenta utilizada na confecção dos _wireframes_.
 
 
-As ferramentas empregadas no projeto são:
-
-- Editor de código.
-- Ferramentas de comunicação
-- Ferramentas de desenho de tela (_wireframing_)
-
-O editor de código foi escolhido porque ele possui uma integração com o
+O editor de código foi escolhido porque  possui uma integração com o
 sistema de versão. As ferramentas de comunicação utilizadas possuem
 integração semelhante e por isso foram selecionadas. Por fim, para criar
 diagramas utilizamos essa ferramenta por melhor captar as
 necessidades da nossa solução.
 
-Liste quais ferramentas foram empregadas no desenvolvimento do projeto, justificando a escolha delas, sempre que possível.
- 
-> **Possíveis Ferramentas que auxiliarão no gerenciamento**: 
-> - [Microsoft Teams](https://www.microsoft.com/pt-br/microsoft-teams/group-chat-software)
-> - [Github](https://github.com/)
-> - [Trello](https://trello.com/)
-> - [Visual Studio Code](https://code.visualstudio.com/)
-> - [Canva](https://www.canva.com/)
-> - [Figma](https://www.figma.com/)
-> - [Draw.io](https://drawio-app.com/)
-> - [Microsoft Office](https://www.office.com/)
