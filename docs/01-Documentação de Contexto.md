@@ -7,11 +7,6 @@ O tema criptomoedas vem ganhando relevância no mundo e despertando interesse de
 
 Quanto vale uma carteira composta por 3,22 eth, 3.502 thg e 0,8 btc? Essa pergunta evidencia o problema a ser abordado no presente trabalho, qual seja, a dificuldade em saber efetivamente quanto vale um criptoativo ou uma carteira de criptoativos. Em outras palavras, considerando a diversidade de moedas, tokens, nfts, dentre outros ativos, é de suma importância para o investidor conseguir transformar a cotação dos criptoativos em algo que faça sentido em termos de valor. 
 
-
-> **Links Úteis**:
-> - [PAXFUL, Site que oferece serviço similar ao proposto em nosso projeto](https://paxful.com/pt-br/calculator)
-
-
 ## Objetivos
 
 
@@ -24,13 +19,15 @@ Tendo em vista os problemas supracitados, os objetivos do projeto proposto são:
 ### Objetivos especifícos
 
 1. Desenvolver um site que permita visualizar o preço de diversos criptoativos;
-2. Converter rapidamente preços de criptoativos e moedas fiduciárias;
-3.	Montar uma carteira por meio de registro de diversos criptoativos e exprimir seu valor em uma determinada moeda escolhida;
+1. Converter rapidamente preços de criptoativos e moedas fiduciárias;
+1.	Montar uma carteira por meio de registro de diversos criptoativos e exprimir seu valor em uma determinada moeda escolhida;
+1. Auxiliar pessoas que estão iniciando seus investimentos em criptoativos;
+1. Auxiliar negociações no dia-a-dia.
 
 
 # Justificativa
 
-Entender o mercado de criptos não é tarefa simples. Aqueles que se aventuram nesse universo acabam se deparando com diversos termos, tais como: altcoin, proof of work, proof of stake, nft, token, blockchain, mint e cold wallet, dentre outros. Além da complexidade do tema, a existência de muitas informações não facilita o trabalho dos interessados, pois não é tarefa simples encontrar sites confiáveis e que tratem do assunto de forma simples e acessível.
+Entender o mercado de criptos não é tarefa simples. Aqueles que se aventuram nesse universo acabam se deparando com diversos termos, tais como: _altcoin, proof of work, proof of stake, nft, token, blockchain, mint e cold wallet_, dentre outros. Além da complexidade do tema, a existência de muitas informações não facilita o trabalho dos interessados, pois não é tarefa simples encontrar sites confiáveis e que tratem do assunto de forma simples e acessível.
 
 Considerando o exposto, torna-se relevante desenvolver espaços nos quais o investidor, principalmente os iniciantes, possam acessar facilmente e de maneira simples dados e informações importantes do universo cripto. Dentre estas informações, conseguir identificar rapidamente a cotação de uma determinada moeda ou token e realizar conversões entre elas é relevante para que o investidor tenha noção do preço do ativo de seu interesse. Principalmente ao se constatar a existência de milhares de tokens e nfts espalhados por diversas blockchains, tais como polkadot, avalanche, binance smart chain, canary, ethereum, solana e bitcoin. Exemplificando, ao se deparar com um nft no valor de 3,22 eth, qual seria o preço equivalente em reais? Quanto custa um ativo que está cotado a 33 thg ou 1.134 mist? Nesse sentido, uma calculadora de criptomoedas, como aqui proposto, certamente contribuirá com todos os interessados neste novel universo, pois, é uma plataforma digital de obtenção de dados necessários às operações relativas aos criptoativos.
 
@@ -39,6 +36,6 @@ Considerando o exposto, torna-se relevante desenvolver espaços nos quais o inve
 
 # Público-Alvo
 
-Embora todos os “crypto investors” possam se beneficiar com a cotação das criptomoedas, o projeto visa como público-alvo investidores iniciantes e entusiastas no mercado de criptoativos, com perfil de investimento agressivo ou arrojado, de todas as idades, que utilizarão a ferramenta para tomada de decisões acerca das melhores opções de investimento ou negociações no dia a dia do mercado.
+Embora todos os _“crypto investors”_ possam se beneficiar com a cotação das criptomoedas, o projeto visa como público-alvo investidores iniciantes e entusiastas no mercado de criptoativos, com perfil de investimento agressivo ou arrojado, de todas as idades, que utilizarão a ferramenta para tomada de decisões acerca das melhores opções de investimento ou negociações no dia a dia do mercado.
 
 
