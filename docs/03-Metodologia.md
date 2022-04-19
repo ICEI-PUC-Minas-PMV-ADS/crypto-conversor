@@ -3,8 +3,7 @@
 
 <span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
 
-A aplicação será desenvolvida com base no protocolo HTTP, utilizando a linguagem de marcação HTML5 com formatação em CSS. A programação da aplicação será feita em (a definir) fazendo-se uso da ferramenta Visual Studio Code.
-Todo versionamento do projeto será feito via Git com repositório GitHub. Utilizaremos a metodologia ágil SCRUM.
+A aplicação será desenvolvida com base no protocolo HTTP, utilizando a linguagem de marcação HTML5 com formatação em CSS. A programação da aplicação será feita em javascrip com a utilização da ferramenta Visual Studio Code. Todo o versionamento do projeto será feito via Git com repositório GitHub. Quanto ao método de gestão, será utilizada a metodologia ágil SCRUM.
 
 <b>Relação de Ambientes de Trabalho</b></br>
 
@@ -16,6 +15,7 @@ Ambiente                                 | Plataforma  |  Link de Acesso
  Documentos do projeto                   |             |
  Projeto de Interface e  Wireframes      |  Figma      |  https://www.figma.com/file/SIyHLd7Ac93NYTJUTCdpuw/Crypto-Project?node-id=0%3A1
  Gerenciamento do Projeto                |  Trello     |  https://trello.com/b/OgaaFkog/projeto-cripto
+                                         |             |  https://github.com/ICEI-PUC-Minas-PMV-ADS/crypto-conversor/projects
       
                        
 ## Controle de Versão
