@@ -86,5 +86,11 @@ necessidades da nossa solução.
 Liste quais ferramentas foram empregadas no desenvolvimento do projeto, justificando a escolha delas, sempre que possível.
  
 > **Possíveis Ferramentas que auxiliarão no gerenciamento**: 
-> - [Slack](https://slack.com/)
+> - [Microsoft Teams](https://www.microsoft.com/pt-br/microsoft-teams/group-chat-software)
 > - [Github](https://github.com/)
+> - [Trello](https://trello.com/)
+> - [Visual Studio Code](https://code.visualstudio.com/)
+> - [Canva](https://www.canva.com/)
+> - [Figma](https://www.figma.com/)
+> - [Draw.io](https://drawio-app.com/)
+> - [Microsoft Office](https://www.office.com/)
