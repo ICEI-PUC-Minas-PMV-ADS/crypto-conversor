@@ -46,13 +46,13 @@ Conforme citado, a equipe utilizará a metodologia *scrum*, de modo que haverá 
 
 A equipe está organizada da seguinte forma:
 
-* *Scrum master*: Aaron Duarte Dalla
-* *Product owner*: Iago José Silva Ferreira
-* Equipe de desenvolvimento
+* _**Scrum master**_: Aaron Duarte Dalla
+* _**Product owner**_: Iago José Silva Ferreira
+* _**Equipe de desenvolvimento**_:
     * Gabriel Miranda Cangussu
     * Matheus Henique Rodrigues
     * Thiago Costa Prates
-* Equipe de *design*:
+* _**Equipe de *design***_:
     * Tafarel Luis de Mello
     * Renan Costa Cunha
 
