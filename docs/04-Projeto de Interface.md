@@ -38,7 +38,7 @@ O cabeçalho da home-page traz quatro elementos distintos:
 # Tela Serviços
 A tela de Serviços contém os serviços que podem ser executados no site, um atalho para a tela de conversão, um atalho para a tela de registro, e a varição financeira das criptomoedas.
 
-! [Serviços](img/Wireframe-Servicos.png)
+![Serviços](img/Wireframe-Servicos.png)
 
 # Tela - Converta Agora
 A tela "Converta Agora" apresenta as possibilidades de conversão à escolha do usuário. Ao clicar em "Selecione sua Crypto" ou " Selecione sua moeda", será exibida uma lista com os nomes e logotipo das criptomoedas e moedas fiduciárias disponíveis. 
