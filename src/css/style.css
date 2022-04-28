@@ -162,7 +162,7 @@ a {
 #conteudo {
     border: 1px solid red;
     margin: auto;
-    background: url(../images/fundo-caixa.png);
+    background: url(../assets/fundo-caixa.png);
     width: 720px;
 }
 
