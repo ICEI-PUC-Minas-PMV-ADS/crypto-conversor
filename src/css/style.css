@@ -204,9 +204,28 @@ footer {
 
 /*Formatação tela serviços*/
 
+
+
+
 .container {
     display: flex;
     flex-flow: row;
     flex-wrap: wrap;
     width: 100%;
+}
+
+
+#tabela-servico {
+    font-size: 16px;
+    padding: 10px;
+    text-align: center;
+    
+}
+
+tr {
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
 }
