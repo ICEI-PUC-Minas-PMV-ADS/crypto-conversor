@@ -156,16 +156,70 @@ a {
     position: relative;
 }
 
+/* formatacao do cadastro */
 
-
-/* formatacao do main */
-#conteudo {
-    border: 1px solid red;
+section{
     margin: auto;
     background: url(../assets/fundo-caixa.png);
-    width: 720px;
-    padding: 15px;
+    width: 750px;
+    padding: 20px;
+    height: 640px;
+    text-align: center;
+    font-size: large;
+    line-height: 23px;
 }
+
+.fieldsup{
+    width: 50%;
+    height: 50%;
+    padding: 20px;
+    padding-bottom: 10px;
+    padding-bottom: 40px;
+    border-color: black;
+    border-radius: 5px;
+    margin-left:25%;
+    margin-top: 5%;
+    background-color: white;
+}
+
+label{
+    text-align:left;
+    font-size: 15px;
+    display: block;
+}
+
+input {
+    
+    display: inline-block;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 5px;
+    line-height: 10px;
+}
+
+.enviar{
+    background: #f44926;
+    height: fit-content;
+    width: auto;
+    text-align: left;
+    padding: 3px;
+    color: white;
+    border-radius: 20px;
+    line-height: 20px
+    
+}
+
+.limpar{
+    background: #762fcf;
+    height: min-content;
+    color: white;
+    border-radius: 20px;
+    width: auto;
+    padding: 3px;
+    margin: 20px 0;
+}
+
 
 /* formatacao do footer */
 footer {
@@ -200,42 +254,4 @@ footer {
 .m-s a:hover{
     transition: .4s;
     transform: scale(1.25);
-}
-
-/*Formatação tela serviços*/
-
-#tabela-servico {
-    width: 100%;
-    font-size: 16px;
-    padding: 15px;
-    text-align: center;
-    vertical-align: top;
-    
-}
-
-th, tr, tr {
-    padding: 15px;
-    vertical-align: top;
-    
-}
-
-.titulo-tabela {
-    padding: 15px;
-    font-size: 20px;
-    font-weight: bold;
-
-}
-
-.imagem-servico {
-    width: 33%
-}
-
-/*Formatação do formulário*/
-form {
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
-    padding-bottom: 60px;
-    display: inline-block;
-    height: 500px;
-    
 }
