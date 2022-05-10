@@ -156,8 +156,6 @@ a {
     position: relative;
 }
 
-
-
 /* formatacao do main */
 #conteudo {
     border: 1px solid red;
@@ -165,6 +163,7 @@ a {
     background: url(../assets/fundo-caixa.png);
     width: 720px;
     padding: 15px;
+    height: 1100px;
 }
 
 /* formatacao do footer */
@@ -231,6 +230,21 @@ th, tr, tr {
 }
 
 /*Formatação do formulário*/
+.fieldsup {
+    width: 50%;
+    height: 50%;
+    padding: 20px;
+    padding-bottom: 10px;
+    padding-bottom: 40px;
+    border-color: black;
+    border-radius: 5px;
+    
+}
+.eform {
+    text-align: center;
+    margin-top: 5%;
+}
+
 form {
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
@@ -239,3 +253,67 @@ form {
     height: 500px;
     
 }
+
+input {
+    
+    display: inline-block;
+    width: 100%;
+    border-radius: 5px;
+    
+}
+
+.fieldsup {
+    width:300px;
+    height: 350px;
+    padding: 20px;
+    padding-bottom: 40px;
+    border-color: black;
+    border-radius: 5px;
+    margin-left:25%;
+    margin-top: 5%;
+    background-color: white;
+    
+}
+
+label {
+    
+    display: block;
+}
+
+.enviar {
+    padding: 10px;
+    position: relative;
+    top:10%;
+    left: 80%;
+    color: red;
+    border-radius: 5px;
+}
+
+legend {
+    text-align: center;
+}
+
+textarea {
+    border-radius: 5px;
+    width: 100%;
+}
+/*Formatação do mapa*/
+
+iframe {
+    width:80%;
+    height: 40%;
+    padding: 0px;
+    padding-bottom: 0px;
+    border-color: black;
+    border-radius: 5px;
+    background-color: white;
+    display: flex;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 5%;
+}
+    

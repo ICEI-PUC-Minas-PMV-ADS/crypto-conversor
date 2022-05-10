@@ -6,7 +6,7 @@
 body {
     font-size: 16px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #ddc6f8;
+    background-color: #f44926;
 }
 
 ul {
@@ -20,7 +20,7 @@ a {
 /* formatacao dos menus de topo */
 
 #menu-topo1 {
-    width: 100%;
+    width: 70%;
     height: 80px;
     background-color: #762fcf;
 }
@@ -85,6 +85,7 @@ a {
 }
 
 #caixa {
+    float: left;
     padding: 5px;
     width: 720px;
     margin: auto;
@@ -126,6 +127,8 @@ a {
 
 .converta li {
     float: right;
+    position: relative;
+    left: 110px
 }
 
 .converta ul a {
@@ -148,6 +151,7 @@ a {
 }
 .carrosel, .logo{
     position: absolute;
+    left: 100px;
 }
 .carrosel{
     margin-left: 110px;
@@ -159,12 +163,125 @@ a {
 
 
 /* formatacao do main */
-#conteudo {
-    border: 1px solid red;
-    margin: auto;
-    background: url(../assets/fundo-caixa.png);
-    width: 720px;
-    padding: 15px;
+
+#parentCripto{
+    display: flex;
+    width: 50%;
+}
+
+.box {
+    flex: 1;
+    border: 2px solid #762fcf;
+    margin:10px;
+    width: 50%;
+    height: 300px;
+    display: block;
+    position: relative;
+    left: 100px;
+}
+#criptoMoeda{
+    border-radius: 10px;
+    background-color: white;
+    position: relative;
+}
+
+#convert1{
+    position: relative;
+    align-content: center;
+    left: 70px;
+    display: flex;
+    width: 50%;
+}
+
+#criptos{
+    width: 65px;
+}
+
+#botaoConversao{
+    position: relative;
+    left: 130px;
+    background-color: #762fcf;
+    color: white;
+}
+
+#moedaCri{
+    position: relative;
+    left: 5px;
+    width: 100px;
+}
+
+#convert2{
+    position: relative;
+    left: 70px;
+    display: flex;
+}
+
+#moedas{
+    width: 65px;
+}
+
+#moedaCri2{
+    position: relative;
+    left: 5px;
+    width: 100px;
+}
+#moedaCripto{
+    border-radius: 10px;
+    background-color: white;
+    position: relative;
+}
+
+#converse1{
+    position: relative;
+    align-content: center;
+    left: 50px;
+    display: flex;
+    width: 50%;
+}
+
+#moeds{
+    width: 100px;
+    position: relative;
+    right: 5px;
+}
+
+#converse2{
+    position: relative;
+    align-content: center;
+    left: 50px;
+    display: flex;
+    width: 50%;
+}
+
+#cripts{
+    width: 60px;
+    position: relative;
+    right: 5px;
+}
+
+#convers{
+    position: relative;
+    left: 130px;
+    background-color: #762fcf;
+    color: white;
+}
+
+#moedscrs{
+    position: relative;
+    left: 5px;
+    width: 100px;
+}
+
+#cripsmoeds{
+    position: relative;
+    left: 5px;
+    width: 100px;
+}
+
+
+h1{
+    text-align: center;
+    color: #762fcf;
 }
 
 /* formatacao do footer */

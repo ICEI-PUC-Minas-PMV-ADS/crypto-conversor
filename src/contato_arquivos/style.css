@@ -229,13 +229,3 @@ th, tr, tr {
 .imagem-servico {
     width: 33%
 }
-
-/*Formatação do formulário*/
-form {
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
-    padding-bottom: 60px;
-    display: inline-block;
-    height: 500px;
-    
-}
