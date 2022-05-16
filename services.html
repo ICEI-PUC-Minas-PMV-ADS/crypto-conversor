@@ -7,9 +7,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-    <link rel="stylesheet" href="estiloConversao.html">
+    <link rel="stylesheet" href="css/style.css">
 
-    <title>Crypto-Conversor</title>
+    <title>Crypto Conversor</title>
 
 </head>
 
@@ -19,15 +19,19 @@
         <div id="menu-topo1">
             <div class="menu-1">
                 <nav>
+                    <!-- Inicio da nevagacao inicial -->
                     <ul>
                         <li>
-                            <a class="home" href="index.html">home</a>
+                            <a href="index.html">Home</a>
                         </li>
                         <li>
-                            <a class="servicos" href="tela-servicos.html">serviços</a>
+                            <a href="contact.html">Contato</a>
                         </li>
                         <li>
-                            <a class="contato" href="contato.html">contato</a>
+                            <a href="conversor.html">Conversor</a>
+                        </li>
+                        <li>
+                            <a href="services.html">Serviços</a>
                         </li>
                     </ul>
                 </nav>
@@ -47,7 +51,7 @@
 
     </header>
     <!--fim cabecaclho-->
-<br>
+
     <main>
         <!--area principal-->
         <section id="caixa-face">
@@ -70,7 +74,7 @@
                     </ul>
                 </div>
                 <h1 class="logo">
-                    <a href="index.html"> <img src="Imagens/logo-final.png" alt=""></a>
+                    <a href="index.html"> <img src="assets/logo-final.png" alt=""></a>
                 </h1>
                 <div class="converta">
                     <ul>
@@ -82,69 +86,47 @@
             </div>
         </section>
         <!--fim menu face-->
-        <br>
-            <!--inicio da area de conteudo-->
-    <div id="parentCripto">
-        <div class="box" id="criptoMoeda">
-            <h1>Converta moeda em cripto</h1>
-            <br>
-            <div id="convert1">
-                <select name="criptos" id="criptos">
-                    <option value="1">Bitcoin</option>
-                    <option value="2">Ethereum</option>
-                    <option value="3">Doge</option>
-                </select>
-                <input type="number" id="moedaCri">
-            </div>
-                <br>
-                <input type="button" value="Converter" id="botaoConversao">
-                <br>
-                <br>
-            <div id="convert2">
-                <select name="moedas" id="moedas">
-                    <option value="1">Real</option>
-                    <option value="2">Euro</option>
-                    <option value="3">Dólar</option>
-                </select>
-                <input type="number" id="moedaCri2">
-            </div>
-        </div>
-            <br>
-        <div class="box" id="moedaCripto">
-                <h1>Converta cripto em moeda</h1>
-                <br>
-                <div id="converse1">
-                    <select name="moeds" id="moeds">
-                        <option value="1">Real</option>
-                        <option value="2">Euro</option>
-                        <option value="3">Dólar</option>
-                    </select>
-                    <input type="number" id="moedscrs">
-                </div>
-                <br>
-                <input type="button" value="Converter" id="convers">
-                <br>
-                <br>
-                <div id="converse2">
-                    <select name="cripts" id="cripts">
-                        <option value="1">Bitcoin</option>
-                        <option value="2">Ethereum</option>
-                        <option value="3">Doge</option>
-                    </select>
-                    <input type="number" id="cripsmoeds">
-            </div>
-            </div>
-            <h1></h1>
-            <br></br>
-            <p>
-                
-            </p>
-        </div>
-    </div>
-            <br>
-        <!--fim da area de conteudo-->
+
+        <section id="conteudo">  <!--inicio da area de conteudo-->
+
+
+
+    <table id="tabela-servico">
+        <tr>
+            <th>
+                <img class="imagem-servico" src="assets/calculadora.png" alt="calculadora">
+            </th>
+            <th>
+                <img class="imagem-servico" src="assets/carteira.png" alt="calculadora">
+            </th>
+            <th>
+                <img class="imagem-servico" src="assets/grafico.png" alt="calculadora">
+            </th>
+        </tr>
+        <tr>
+            <td>
+
+                <h1 class="titulo-tabela">Coversões rápidas</h1>
+                <p>Converta valores entre diversas moedas correntes e os criptoativos mais atuais</p>
+            </td>
+            <td>
+
+                <h1 class="titulo-tabela">Calcule sua carteira</h1>
+                <p>Utilize nossas ferramentas para estmar seu capital contido em todos os seus investimentos</p>
+            </td>
+            <td>
+
+                <h1 class="titulo-tabela">Monitore o mercado</h1>
+                <p>Mantenha-se sempre atualziado com o mercado a cada minuto</p>
+            </td>
+        </tr>
+    </table>
+    <!-- fim da area de conteudo-->
     </main>
     <!--fim area principal-->
+
+
+
 
     <footer>
         <div class="m-s">
@@ -157,4 +139,5 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js"></script>
 </body>
+
 </html>
