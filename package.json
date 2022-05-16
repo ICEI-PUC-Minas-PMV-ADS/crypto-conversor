@@ -1,6 +1,6 @@
 {
   "name": "crypto-conversor",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Projeto de conversão de criptomoedas do primeiro período do curso de Análise e Desenvolvimento de Sistemas da PUC Minas Virtual",
   "main": "src/index.html",
   "directories": {
@@ -18,10 +18,10 @@
   "keywords": [],
   "contributors": [
     "Aaron Duarte Dalla <aaron.dalla@gmail.com> (https://github.com/aarondalla)",
-    "Gabriel Miranda Cangussu <98751183+gamirca@users.noreply.github.com> (https://github.com/gamirca)",
+    "Gabriel Miranda Cangussu <g.cangussu@hotmail.com> (https://github.com/gamirca)",
     "Iago Ferreira <iago-ferreira@outlook.com> (https://www.github.com/iagxferreira)",
     "Matheus Henique Rodrigues <matheusr94@live.com> (https://github.com/mths1094)",
-    "Renan Costa Cunha <> (https://github.com/RENANCC1994)",
+    "Renan Costa Cunha <r3n4ncc@gmail.com> (https://github.com/RENANCC1994)",
     "Tafarel Luis de Mello <tafarel.luis.mello@gmail.com> (https://github.com/Tafarel-Mello)",
     "Thiago Costa Prates <thiagoprates@hotmail.com> (https://github.com/tprates)"
   ],

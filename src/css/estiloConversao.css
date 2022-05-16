@@ -6,7 +6,7 @@
 body {
     font-size: 16px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #ddc6f8;
+    background-color: #f44926;
 }
 
 ul {
@@ -20,7 +20,7 @@ a {
 /* formatacao dos menus de topo */
 
 #menu-topo1 {
-    width: 100%;
+    width: 70%;
     height: 80px;
     background-color: #762fcf;
 }
@@ -85,6 +85,7 @@ a {
 }
 
 #caixa {
+    float: left;
     padding: 5px;
     width: 720px;
     margin: auto;
@@ -126,6 +127,8 @@ a {
 
 .converta li {
     float: right;
+    position: relative;
+    left: 110px
 }
 
 .converta ul a {
@@ -148,6 +151,7 @@ a {
 }
 .carrosel, .logo{
     position: absolute;
+    left: 100px;
 }
 .carrosel{
     margin-left: 110px;
@@ -156,14 +160,128 @@ a {
     position: relative;
 }
 
+
+
 /* formatacao do main */
-#conteudo {
-    border: 1px solid red;
-    margin: auto;
-    background: url(../assets/fundo-caixa.png);
-    width: 720px;
-    padding: 15px;
-    height: 1100px;
+
+#parentCripto{
+    display: flex;
+    width: 50%;
+}
+
+.box {
+    flex: 1;
+    border: 2px solid #762fcf;
+    margin:10px;
+    width: 50%;
+    height: 300px;
+    display: block;
+    position: relative;
+    left: 100px;
+}
+#criptoMoeda{
+    border-radius: 10px;
+    background-color: white;
+    position: relative;
+}
+
+#convert1{
+    position: relative;
+    align-content: center;
+    left: 70px;
+    display: flex;
+    width: 50%;
+}
+
+#criptos{
+    width: 65px;
+}
+
+#botaoConversao{
+    position: relative;
+    left: 130px;
+    background-color: #762fcf;
+    color: white;
+}
+
+#moedaCri{
+    position: relative;
+    left: 5px;
+    width: 100px;
+}
+
+#convert2{
+    position: relative;
+    left: 70px;
+    display: flex;
+}
+
+#moedas{
+    width: 65px;
+}
+
+#moedaCri2{
+    position: relative;
+    left: 5px;
+    width: 100px;
+}
+#moedaCripto{
+    border-radius: 10px;
+    background-color: white;
+    position: relative;
+}
+
+#converse1{
+    position: relative;
+    align-content: center;
+    left: 50px;
+    display: flex;
+    width: 50%;
+}
+
+#moeds{
+    width: 100px;
+    position: relative;
+    right: 5px;
+}
+
+#converse2{
+    position: relative;
+    align-content: center;
+    left: 50px;
+    display: flex;
+    width: 50%;
+}
+
+#cripts{
+    width: 60px;
+    position: relative;
+    right: 5px;
+}
+
+#convers{
+    position: relative;
+    left: 130px;
+    background-color: #762fcf;
+    color: white;
+}
+
+#moedscrs{
+    position: relative;
+    left: 5px;
+    width: 100px;
+}
+
+#cripsmoeds{
+    position: relative;
+    left: 5px;
+    width: 100px;
+}
+
+
+h1{
+    text-align: center;
+    color: #762fcf;
 }
 
 /* formatacao do footer */
@@ -230,21 +348,6 @@ th, tr, tr {
 }
 
 /*Formatação do formulário*/
-.fieldsup {
-    width: 50%;
-    height: 50%;
-    padding: 20px;
-    padding-bottom: 10px;
-    padding-bottom: 40px;
-    border-color: black;
-    border-radius: 5px;
-    
-}
-.eform {
-    text-align: center;
-    margin-top: 5%;
-}
-
 form {
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
@@ -253,67 +356,3 @@ form {
     height: 500px;
     
 }
-
-input {
-    
-    display: inline-block;
-    width: 100%;
-    border-radius: 5px;
-    
-}
-
-.fieldsup {
-    width:300px;
-    height: 350px;
-    padding: 20px;
-    padding-bottom: 40px;
-    border-color: black;
-    border-radius: 5px;
-    margin-left:25%;
-    margin-top: 5%;
-    background-color: white;
-    
-}
-
-label {
-    
-    display: block;
-}
-
-.enviar {
-    padding: 10px;
-    position: relative;
-    top:10%;
-    left: 80%;
-    color: red;
-    border-radius: 5px;
-}
-
-legend {
-    text-align: center;
-}
-
-textarea {
-    border-radius: 5px;
-    width: 100%;
-}
-/*Formatação do mapa*/
-
-iframe {
-    width:80%;
-    height: 40%;
-    padding: 0px;
-    padding-bottom: 0px;
-    border-color: black;
-    border-radius: 5px;
-    background-color: white;
-    display: flex;
-    margin-left: 10%;
-    margin-top: 5%;
-}
-
-h2 {
-    text-align: center;
-    margin-top: 5%;
-}
-    
