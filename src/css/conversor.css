@@ -1,3 +1,41 @@
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@gamirca 
+ The password you provided is in a list of passwords commonly used on other websites. To increase your security, you must update your password. After June 16, 2022 we will automatically reset your password. Change your password on the settings page.
+
+Read our documentation on safer password practices.
+
+ICEI-PUC-Minas-PMV-ADS
+/
+crypto-conversor
+Public
+generated from ICEI-PUC-Minas-PMV-ADS/WebApplicationProject-Template
+Code
+Issues
+6
+Pull requests
+Discussions
+Actions
+Projects
+1
+Wiki
+Security
+Insights
+Settings
+crypto-conversor/src/css/estiloConversao.css
+@gamirca
+gamirca Update estiloConversao.css
+Latest commit 4dc238c 5 minutes ago
+ History
+ 2 contributors
+@Tafarel-Mello@gamirca
+346 lines (292 sloc)  4.81 KB
+   
 * {
     margin: 0;
     padding: 0;
@@ -6,7 +44,7 @@
 body {
     font-size: 16px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #f44926;
+    background-color: #ddc6f8;
 }
 
 ul {
@@ -20,7 +58,7 @@ a {
 /* formatacao dos menus de topo */
 
 #menu-topo1 {
-    width: 70%;
+    width: 100%;
     height: 80px;
     background-color: #762fcf;
 }
@@ -85,7 +123,6 @@ a {
 }
 
 #caixa {
-    float: left;
     padding: 5px;
     width: 720px;
     margin: auto;
@@ -127,8 +164,6 @@ a {
 
 .converta li {
     float: right;
-    position: relative;
-    left: 110px
 }
 
 .converta ul a {
@@ -151,7 +186,6 @@ a {
 }
 .carrosel, .logo{
     position: absolute;
-    left: 100px;
 }
 .carrosel{
     margin-left: 110px;
@@ -160,13 +194,13 @@ a {
     position: relative;
 }
 
-
-
 /* formatacao do main */
 
 #parentCripto{
+    margin: auto;
+    background: url(../assets/fundo-caixa.png);
     display: flex;
-    width: 50%;
+    width: 750px;
 }
 
 .box {
@@ -176,8 +210,6 @@ a {
     width: 50%;
     height: 300px;
     display: block;
-    position: relative;
-    left: 100px;
 }
 #criptoMoeda{
     border-radius: 10px;
@@ -193,18 +225,19 @@ a {
     width: 50%;
 }
 
-#criptos{
-    width: 65px;
+#selectCripto1{
+    width: auto;
 }
 
 #botaoConversao{
-    position: relative;
-    left: 130px;
+    margin: auto;
+    position: absolute;
+    left: 150px;
     background-color: #762fcf;
     color: white;
 }
 
-#moedaCri{
+#numberCripto1{
     position: relative;
     left: 5px;
     width: 100px;
@@ -216,11 +249,11 @@ a {
     display: flex;
 }
 
-#moedas{
-    width: 65px;
+#selectMoeda1{
+    width: 82px;
 }
 
-#moedaCri2{
+#numberMoeda1{
     position: relative;
     left: 5px;
     width: 100px;
@@ -233,35 +266,28 @@ a {
 
 #converse1{
     position: relative;
-    align-content: center;
-    left: 50px;
+    left: 70px;
     display: flex;
-    width: 50%;
 }
 
-#moeds{
-    width: 100px;
-    position: relative;
-    right: 5px;
+#selectMoeda2{
+    width: 82px;
 }
 
 #converse2{
     position: relative;
-    align-content: center;
-    left: 50px;
+    left: 70px;
     display: flex;
-    width: 50%;
 }
 
-#cripts{
-    width: 60px;
-    position: relative;
-    right: 5px;
+#selectCripto2{
+    width: auto;
 }
 
-#convers{
+#botaoConversao2{
+    margin: auto;
     position: relative;
-    left: 130px;
+    left: 150px;
     background-color: #762fcf;
     color: white;
 }
@@ -356,3 +382,16 @@ form {
     height: 500px;
     
 }
+© 2022 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Loading complete
