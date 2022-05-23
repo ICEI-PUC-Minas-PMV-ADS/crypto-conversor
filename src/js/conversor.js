@@ -38,7 +38,7 @@ function abcd(){
 function dcba(){
     let resultado2 = document.getElementById('resultado2')
     let selectMoeda2 = document.getElementById('selectMoeda2')
-    let selectCripto2 = document.getElementById('selectMoeda1')
+    let selectCripto2 = document.getElementById('selectCripto2')
     let moedscrs = document.getElementById('moedscrs')
 
     if(selectMoeda2.value == 1 && selectCripto2.value == 1){
