@@ -205,6 +205,7 @@ a {
     width: 100px;
 }
 
+
 #convert2{
     position: relative;
     left: 70px;
@@ -266,6 +267,25 @@ a {
     width: 100px;
 }
 
+#resultado{
+text-align: center;
+color: white;
+background-color: #762fcf;
+border: 1px solid black;
+width: 150px;
+position: absolute;
+right: 100px;
+}
+
+#resultado2{
+    text-align: center;
+    color: white;
+    background-color: #762fcf;
+    border: 1px solid black;
+    width: 150px;
+    position: absolute;
+    right: 100px;
+}
 
 h1{
     text-align: center;
