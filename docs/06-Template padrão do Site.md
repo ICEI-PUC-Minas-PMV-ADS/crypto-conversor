@@ -8,7 +8,7 @@ O projeto terá dois layouts distintos:
 
 
 O template é composto por:
-    * Cabeçalho, contendo dois menus;
+    - Cabeçalho, contendo dois menus;
     * Divisão 01, contendo a logomara, uma carrosel com imagens e um botão para conversão;
     * Divisão 02, com o conteúdo referente à página;
     * Rodapé, composto por quatro ícones de redes sociais.
