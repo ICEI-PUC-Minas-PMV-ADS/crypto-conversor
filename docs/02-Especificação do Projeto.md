@@ -80,8 +80,9 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 | RF-003 | O site permitirá ao usuário informar várias moedas fiduciárias e/ou criptoativos "de entrada” e converter os valores obtidos para outra moeda fiduciária e/ou criptoativo "alvo”. | ALTA |
 | RF-004 | O site apresentará para cada moeda fiduciária e/ou criptoativo um ícone correspondente para rápida identificação visual. | MÉDIA |
 | RF-005 | O site terá uma funcionalidade que permita ao usuário informar uma carteira composta por diversas moedas fiduciárias e/ou criptoativos e expressar os valores obtidos em uma outra moeda e/ou criptoativo escolhido pelo usuário. | MÉDIA |
-| FR-006 | O site terá uma página em que será possível acessar os serviços disponíveis, quais sejam: conversão, cálculo de carteira e monitoramento de mercado. | ALTA |
-
+| RF-006 | O site terá uma página em que será possível acessar os serviços disponíveis, quais sejam: conversão, cálculo de carteira e monitoramento de mercado. | ALTA |
+| RF-007 | O site terá uma página em que será possível acessar um formulário de contato para que o usuário possa enviar dúvidas, sugestões ou críticas aos desenvolvedores do projeto.
+Os campos presentes no formulário de contato são de preenchimento obrigatório, salvo o referente ao número de telefone, o que traz mais credibilidade ao contato do usuário, bem como minimiza o recebimento de spam.  | ALTA |
 
 ### Requisitos não Funcionais
 
