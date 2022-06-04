@@ -1,4 +1,5 @@
 
+//Primeiro bloco
 
 function abcd(){
     let resultado = document.getElementById('resultado')
@@ -6,9 +7,21 @@ function abcd(){
     let selectMoeda1 = document.getElementById('selectMoeda1')
     let numberCripto1 = document.getElementById('numberCripto1')
 
-    if(selectCripto1.value == 1 && selectMoeda1.value == 1){
-    resultado.innerHTML = `${numberCripto1.value} bitcoins são ${numberCripto1.value * 30 /*colocar valor encontrado na api aqui*/} reais`
+    if(selectCripto1.value == 0 && selectMoeda1.value != 0){
+        resultado.innerHTML = 'Selecione uma criptomoeda'
     }
+    if(selectMoeda1.value == 0 && selectCripto1.value != 0){
+        resultado.innerHTML = 'Selecione uma moeda fiduciária'
+    }
+    if(selectMoeda1.value == 0 && selectCripto1.value == 0){
+        resultado.innerHTML = 'Escolha o tipo de conversão'
+    }
+    if(numberCripto1.value == '' || numberCripto1.value == 0){
+      resultado.innerHTML = 'Digite um valor!'
+    }
+    if(selectCripto1.value == 1 && selectMoeda1.value == 1){
+        resultado.innerHTML = `${numberCripto1.value} bitcoins são ${numberCripto1.value * 30 /*colocar valor encontrado na api aqui*/} reais`
+    } 
     else if(selectCripto1.value == 1 && selectMoeda1.value == 2){
         resultado.innerHTML = `${numberCripto1.value} bitcoins são ${numberCripto1.value * 28,488.83} euros`
     }
@@ -35,14 +48,29 @@ function abcd(){
     }
 }
 
+//Segundo bloco
+
 function dcba(){
     let resultado2 = document.getElementById('resultado2')
     let selectMoeda2 = document.getElementById('selectMoeda2')
     let selectCripto2 = document.getElementById('selectCripto2')
     let moedscrs = document.getElementById('moedscrs')
 
+   
+    if(selectCripto2.value == 0 && selectMoeda2.value != 0){
+        resultado2.innerHTML = 'Selecione uma criptomoeda'
+    }
+    if(selectMoeda2.value == 0 && selectCripto2.value != 0){
+        resultado2.innerHTML = 'Selecione uma moeda fiduciária'
+    }
+    if(selectMoeda2.value == 0 && selectCripto2.value == 0){
+        resultado2.innerHTML = 'Escolha o tipo de conversão'
+    }
+    if(moedscrs.value == '' || moedscrs.value == 0){
+        resultado2.innerHTML = 'Digite um valor!'
+      }
     if(selectMoeda2.value == 1 && selectCripto2.value == 1){
-    resultado2.innerHTML = `${moedscrs.value} reais são ${moedscrs.value * 0.0000067} bitcoins`
+        resultado2.innerHTML = `${moedscrs.value} reais são ${moedscrs.value * 0.0000067} bitcoins`
     }
     else if(selectMoeda2.value == 1 && selectCripto2.value == 2){
         resultado2.innerHTML = `${moedscrs.value} reais são ${moedscrs.value * 0.000099} ethereums`
