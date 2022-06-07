@@ -20,4 +20,5 @@ Para cada requisito funcional, pode ser entregue um artefato desse tipo
 
 ### Usuário não escolhe uma criptomoeda para a conversão
 
-![semCriptoSessão1](images\Testes_Página_de_Conversão\semCripto - segunda sessão.png)
+#### Primeira sessão (Cripto para Moeda Fiduciária)
+![semCriptoSessão1](img/Testes/Conversor/semCripto-primeiraSess%C3%A3o.png)
