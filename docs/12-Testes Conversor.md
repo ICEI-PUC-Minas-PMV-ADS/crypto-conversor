@@ -20,5 +20,43 @@ Para cada requisito funcional, pode ser entregue um artefato desse tipo
 
 ### Usuário não escolhe uma criptomoeda para a conversão
 
-#### Primeira sessão (Cripto para Moeda Fiduciária)
+Na sessão de resultados aparece a mensagem "Selecione uma criptomoeda":
+
+#### Primeira sessão (Criptomoeda para Moeda Fiduciária)
 ![semCriptoSessão1](img/Testes/Conversor/semCripto-primeiraSess%C3%A3o.png)
+
+#### Segunda sessão (Moeda Fiduciária para Criptomoeda)
+![semCriptoSessão2](img/Testes/Conversor/semCripto%20-%20segunda%20sess%C3%A3o.png)
+
+### Usuário não escolhe uma moeda fiduciária para a conversão
+
+Na sessão de resultados aparece a mensagem "Selecione uma moeda fiduciária":
+
+#### Primeira sessão (Criptomoeda para Moeda Fiduciária)
+
+![semMoedaSessão1](img/Testes/Conversor/semMoeda-primeiraSess%C3%A3o.png)
+
+#### Segunda sessão (Moeda fiduciária para Criptomoeda)
+
+![semMoedaSessão2](img/Testes/Conversor/semMoeda-segundaSess%C3%A3o.png)
+
+### Usuário não escolhe nem uma moeda fiduciária nem uma criptomoeda
+
+#### Primeira sessão (Criptomoeda para Moeda Fiduciária)
+
+![semEscolhaSessão1](img/Testes/Conversor/semCripto-segundaSess%C3%A3o.png)
+
+#### Segunda sessão (Moeda fiduciária para Criptomoeda)
+
+![semEscolhaSessão2](img/Testes/Conversor/semEscolha-segundaSess%C3%A3o.png)
+
+### Usuário não insere um valor a ser convertido ou coloca 0
+
+#### Primeira sessão (Criptomoeda para Moeda Fiduciária)
+
+![semValorSessão1](img/Testes/Conversor/semValor-primeiraSess%C3%A3o.png)
+
+
+#### Segunda sessão (Moeda fiduciária para Criptomoeda)
+
+![semEscolhaSessão1](img/Testes/Conversor/semValor-segundaSess%C3%A3o.png)
