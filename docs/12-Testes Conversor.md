@@ -42,6 +42,8 @@ Na sessão de resultados aparece a mensagem "Selecione uma moeda fiduciária":
 
 ### Usuário não escolhe nem uma moeda fiduciária nem uma criptomoeda
 
+Na sessão de resultados aparece a mensagem "Escolha o tipo de conversão":
+
 #### Primeira sessão (Criptomoeda para Moeda Fiduciária)
 
 ![semEscolhaSessão1](img/Testes/Conversor/semCripto-segundaSess%C3%A3o.png)
@@ -50,7 +52,9 @@ Na sessão de resultados aparece a mensagem "Selecione uma moeda fiduciária":
 
 ![semEscolhaSessão2](img/Testes/Conversor/semEscolha-segundaSess%C3%A3o.png)
 
-### Usuário não insere um valor a ser convertido ou coloca 0
+### Usuário não insere um valor a ser convertido ou digita '0'
+
+Na sessão de resultados aparece a mensagem "Digite um valor!":
 
 #### Primeira sessão (Criptomoeda para Moeda Fiduciária)
 
