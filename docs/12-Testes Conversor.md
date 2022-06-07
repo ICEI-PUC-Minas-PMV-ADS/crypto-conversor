@@ -20,5 +20,4 @@ Para cada requisito funcional, pode ser entregue um artefato desse tipo
 
 ### Usuário não escolhe uma criptomoeda para a conversão
 
-![semCriptoSessão1](images/Testes_Página_de_Conversão/semCripto-primeiraSessão.png)
-
+![semCriptoSessão1](images\Testes_Página_de_Conversão\semCripto - segunda sessão.png)
