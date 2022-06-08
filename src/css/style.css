@@ -206,12 +206,12 @@ input {
 }
 .nossos-servicos, .em-alta{
     text-align: center;
-    padding: 3.125rem;
+    padding: 1rem;
     letter-spacing: .1875rem;
     font-size: 3.125rem;
     text-transform: capitalize;
     font-weight: lighter;
-    margin-bottom: 3.125rem;
+    margin-bottom: 1rem;
 }
 .cartoes{
     padding: .9375rem;
