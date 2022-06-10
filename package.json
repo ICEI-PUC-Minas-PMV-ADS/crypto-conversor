@@ -1,6 +1,6 @@
 {
   "name": "crypto-conversor",
-  "version": "0.3.0",
+  "version": "0.4.3",
   "description": "Projeto de conversão de criptomoedas do primeiro período do curso de Análise e Desenvolvimento de Sistemas da PUC Minas Virtual",
   "main": "src/index.html",
   "directories": {
@@ -31,6 +31,7 @@
   },
   "homepage": "https://github.com/ICEI-PUC-Minas-PMV-ADS/crypto-conversor#readme",
   "devDependencies": {
-    "jest": "^28.1.0"
+    "jest": "^28.1.0",
+    "node-fetch": "^3.2.5"
   }
 }
