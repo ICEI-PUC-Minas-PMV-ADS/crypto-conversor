@@ -58,7 +58,7 @@ ul {
 
 /* ---------- cabecalho ---------*/
 
-#topo {
+.topo {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
@@ -272,7 +272,7 @@ input {
     margin-top: 0.625rem;
 }
 
-/* -------- Area conversor --------*/ 
+/* -------- Area conversor --------*/
 
 .box {
     flex: 1;
