@@ -1,6 +1,6 @@
 {
   "name": "crypto-conversor",
-  "version": "0.4.2",
+  "version": "0.4.3",
   "description": "Projeto de conversão de criptomoedas do primeiro período do curso de Análise e Desenvolvimento de Sistemas da PUC Minas Virtual",
   "main": "src/index.html",
   "directories": {
