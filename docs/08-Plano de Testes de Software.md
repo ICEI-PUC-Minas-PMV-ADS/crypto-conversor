@@ -17,9 +17,11 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 |         :---:          | :---                                                                                                                                                                                                                                                                                                                |
 | Requisitos Associados	 | RF-07 - O site terá uma página em que será possível acessar um formulário de contato de modo que o usuário poderá enviar dúvidas, sugestões ou críticas aos desenvolvedores do projeto.                                                                                                                             |
 |   Objetivo do Teste    | 	Verificar se  o fomulário de contato funciona de modo adequado.                                                                                                                                                                                                                                                    |
-|        Passos	         | 1) Acessar o Navegador <br> 2) Informar o endereço do Site <br> 3) Visualizar a página de contato - contact.html <br> 4) Preencher os campos presentes no formulário de contato, e, após a inserção dos dados, clicar no botão de envio ao final do formulário com a seguinte descrição: "ENVIAR A MINHA MENSAGEM". |
+|        Passos	         | 1) Acessar o Navegador <br> 2) Informar o endereço do Site <br> 3) Visualizar a página de contato - contact.html <br> 4) Preencher os campos presentes no formulário de contato, e, após a inserção dos dados, clicar no botão de envio ao final do formulário com a seguinte descrição: "ENVIAR A MINHA MENSAGEM" - Os campos presentes no formulário de contato são de preenchimento obrigatório, salvo o número de telefone. |
 
-Os campos presentes no formulário de contato são de preenchimento obrigatório, salvo o número de telefone.
-Critérios de Êxito |	Após o preenchimento dos campos obrigatórios, ao clicar no botão de envio, não deverá nenhum tipo de mensagem alertando que os campos não foram preenchidos adequadamente.
+| Critérios de Êxito |	Após o preenchimento dos campos obrigatórios, ao clicar no botão de envio, não deverá nenhum tipo de mensagem alertando que os campos não foram preenchidos adequadamente.
+
+
+
 
 
