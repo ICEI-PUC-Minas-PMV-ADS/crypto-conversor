@@ -72,31 +72,34 @@
                     <div class="col col-md-12 espaco3">
                         <div class="card text-center card-custom">
                             <div class="form-control">
-                                <h4 class="card-title card-title-custom espaco2">Converta cripto em moeda fiduciaria
+
+                                <h4 class="card-title card-title-custom espaco2" id="titulo">Converta cripto em moeda fiduciária
                                 </h4>
                                 <div id="convert1" class="espaco3">
                                     <select class="form-select form-select-lg" aria-label=".form-select-lg example"
-                                        id="selectCripto1">
-                                        <option selected>Selecione sua Criptomoeda</option>
+                                        id="select1">
+                                        <option selected value="0">Selecione sua Criptomoeda</option>
+
                                         <option value="1">Bitcoin</option>
                                         <option value="2">Ethereum</oPption>
                                         <option value="3">Doge</option>
                                     </select>
-
-                                    <input type="number" id="numberCripto1" class="border"
+                                    <input type="number" id="numberCripto" class="border"
                                         placeholder="Digite o valor desejado">
                                 </div>
                                 <div id="convert2" class="espaco3">
                                     <select class="form-select form-select-lg" aria-label=".form-select-lg example"
-                                        aria-label="Default select example" id="selectMoeda1">
-                                        <option selected>Selecione sua Moeda</option>
+                                        aria-label="Default select example" id="select2">
+                                        <option selected value="0">Selecione sua Moeda</option>
+
                                         <option value="1">Real</option>
                                         <option value="2">Euro</option>
                                         <option value="3">Dólar</option>
                                     </select>
+                                    <input type="button" class="btn btn-primary btn-sm" value="Inverter" id="inverter">
                                 </div>
                                 <div class="espaco3">
-                                    <input type="button" value="Converter" onclick="abcd()"
+                                    <input type="button" value="Converter" onclick="converter()"
                                         class="btn btn-lg cor-btn user user-conversor">
                                 </div>
                                 <div class="btn btn-lg cor-btn user user-conversor espaco" id="resultado">
@@ -112,45 +115,7 @@
             <!--Inicio da terceira sessao-->
 
             <div class="cemporcento cor2">
-                <section class="container-md espaco2">
-                    <!--Inicio do segundo bloco de conversoes-->
-                    <div class="col col-md-12 espaco3">
-                        <div class="card text-center card-custom">
-                            <div class="form-control">
-                                <h4 class="card-title card-title-custom espaco2">Converta moeda fiduciaria em cripto
-                                </h4>
-                                <div id="moedaCripto" class="espaco3">
-                                    <select class="form-select form-select-lg" aria-label=".form-select-lg example"
-                                        id="selectMoeda2">
-                                        <option selected>Selecione sua Moeda Fiduciaria</option>
-                                        <option value="1">Real</option>
-                                        <option value="2">Euro</oPption>
-                                        <option value="3">Dólar</option>
-                                    </select>
-                                    <input type="number" id="moedscrs" class="border"
-                                        placeholder="Digite o valor desejado">
-                                </div>
-                                <div id="converse2" class="espaco3">
-                                    <select class="form-select form-select-lg" aria-label=".form-select-lg example"
-                                        aria-label="Default select example" name="selectCripto2" id="selectCripto2">
-                                        <option selected>Selecione sua Cripto</option>
-                                        <option value="1">Bitcoin</option>
-                                        <option value="2">Ethereum</option>
-                                        <option value="3">Doge</option>
-                                    </select>
-                                </div>
-                                <div class="espaco3">
-                                    <input id="botaoConversao2" type="button" value="Converter" onclick="dcba()"
-                                        class="btn btn-lg cor-btn user user-conversor">
-                                </div>
-                                <div class="btn btn-lg cor-btn user user-conversor espaco" id="resultado2">
-                                    <h4>SEU VALOR É...</h4>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--Fim do segundo bloco de conversoes-->
-                </section>
+                <section class="container-md espaco2"></section>
             </div>
         </section>
         <!-- fim da area de conteudo-->
