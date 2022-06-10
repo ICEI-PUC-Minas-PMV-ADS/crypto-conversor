@@ -1,132 +1,76 @@
-const inverter = document.getElementById('inverter')
-var texto = 'normal' 
+const API_ENDPOINT = `https://www.mercadobitcoin.net/api/<coin>/ticker`
 
-function text(){
-    if(texto == 'normal'){
-        texto = 'changed'
-    } else{
-        texto = 'normal'
-    }
+const currentCryptoCoins = [
+    {
+        name: "Cardano",
+        code: "ADA"
+    },
+    {
+        name: "Basic Attention token",
+        code: "BAT"
+    },
+    {
+        name: "Bitcoin",
+        code: "BTC"
+    },
+    {
+        name: "Stellar",
+        code: "XLM"
+    },
+    {
+        name: "Ethereum Name Service",
+        code: "ENS"
+    },
+    {
+        name: "Ethereum",
+        code: "ETH"
+    },
+]
+
+const getCurrencyValues = async (coin) => {
+    const options = { method: 'GET', mode: 'cors', cache: 'default' };
+    return fetch(API_ENDPOINT.replace("<coin>", coin.code), options)
+        .then(value => value.json())
+        .then(response => ({ coin: coin.name, code: coin.code, value: response.ticker.buy }));
 }
 
-inverter.addEventListener ('click', (e) => {
-        
-    let selectCripto = document.getElementById('select1')
-    let selectCriptoVal = selectCripto.innerHTML
+const loadCoinValues = async () => {
+    const values = await Promise.all(currentCryptoCoins.map(coin => getCurrencyValues(coin)));
+    return values;
+}
 
-    let selectMoeda = document.getElementById('select2') 
-    let selectMoedaVal = selectMoeda.innerHTML
+let texto = 'normal'
 
+const text = () => {
+    document.getElementById('resultado').innerHTML = 'SEU VALOR É...'
+    texto = texto === 'normal'? 'changed': 'normal'
+}
+
+const inverter = () => {
+    let cripto = document.getElementById('select1').innerHTML
+    let money = document.getElementById('select2').innerHTML
     let titulo = document.getElementById('titulo')
-  
 
-    document.getElementById('select1').innerHTML = selectMoedaVal
-    document.getElementById('select2').innerHTML = selectCriptoVal
+    document.getElementById('select1').innerHTML = money
+    document.getElementById('select2').innerHTML = cripto
+    titulo.innerHTML = texto == 'normal' ? 'Converta moeda fiduciária em criptomoeda' : 'Converta criptomoeda em moeda fiduciária'
 
-    if(texto == 'normal'){
-        titulo.innerHTML = 'Converta moeda fiduciária em cripto'
-        text()
-    }else{
-        titulo.innerHTML = 'Converta cripto em moeda fiduciária'
-        text()
-    }
-    })
-
-//Primeiro bloco
-
-function converter(){
-
-
-    let resultado = document.getElementById('resultado')
-    let select1 = document.getElementById('select1')
-    let select2 = document.getElementById('select2')
-    let numberCripto = document.getElementById('numberCripto')
-    //numberCripto
-
-   
-    if(texto == 'normal'){
-
-        if(select1.value == 0 && select2.value == 0){
-            resultado.innerHTML = 'Escolha um tipo de conversão!'
-        }
-        else if(select1.value == 0 && select2.value != 0){
-            resultado.innerHTML = 'Escolha uma criptomoeda!'
-        }
-        else if(select1.value != 0 && select2.value == 0){
-            resultado.innerHTML = 'Escolha uma moeda fiduciária!'
-        }
-        //Valores
-        if(numberCripto.value == '' || numberCripto.value == 0){
-            resultado.innerHTML = 'Digite um valor!'
-        }
-        else if(select1.value == 1 && select2.value == 1){
-            resultado.innerHTML = `${numberCripto.value} bitcoins são ${numberCripto.value * 30 /*colocar valor encontrado na api aqui*/} reais`
-        } 
-        else if(select1.value == 1 && select2.value == 2){
-            resultado.innerHTML = `${numberCripto.value} bitcoins são ${numberCripto.value * 28,488.83} euros`
-        }
-        else if(select1.value == 1 && select2.value == 3){
-            resultado.innerHTML = `${numberCripto.value} bitcoins são ${numberCripto.value * 30,404.30} dólares`
-        }
-        else if(select1.value == 2 && select2.value == 1){
-            resultado.innerHTML = `${numberCripto.value} ethereums são ${numberCripto.value * 10,105.81} reais`
-        }
-        else if(select1.value == 2 && select2.value == 2){
-            resultado.innerHTML = `${numberCripto.value} ethereums são ${numberCripto.value * 1,941.83} euros`
-        }
-        else if(select1.value == 2 && select2.value == 3){
-            resultado.innerHTML = `${numberCripto.value} ethereums são ${numberCripto.value * 2,070} dólares`
-        }
-        else if(select1.value == 3 && select2.value == 1){
-            resultado.innerHTML = `${numberCripto.value} dogecoins são ${numberCripto.value * 0.43} reais`
-        }
-        else if(select1.value == 3 && select2.value == 2){
-            resultado.innerHTML = `${numberCripto.value} dogecoins são ${numberCripto.value * 0.082} euros`
-        }
-        else if(select1.value == 3 && select2.value == 3){
-            resultado.innerHTML = `${numberCripto.value} dogecoins são ${numberCripto.value * 0.087} dólares`
-        }
-    }
-    else{
-        if(select1.value == 0 && select2.value == 0){
-            resultado.innerHTML = 'Escolha um tipo de conversão!'
-        }
-        else if(select1.value == 0 && select2.value != 0){
-            resultado.innerHTML = 'Escolha uma moeda fiduciária!'
-        }
-        else if(select1.value != 0 && select2.value == 0){
-            resultado.innerHTML = 'Escolha uma criptomoeda!'
-        }
-        //Valores
-        if(numberCripto.value == '' || numberCripto.value == 0){
-            resultado.innerHTML = 'Digite um valor!'
-        }
-        else if(select1.value == 1 && select2.value == 1){
-            resultado.innerHTML = `${numberCripto.value} reais são ${numberCripto.value * 0.0000067} bitcoins`
-        }
-        else if(select1.value == 1 && select2.value == 2){
-            resultado.innerHTML = `${numberCripto.value} reais são ${numberCripto.value * 0.000099} ethereums`
-        }
-        else if(select1.value == 1 && select2.value == 3){
-            resultado.innerHTML = `${numberCripto.value} reais são ${numberCripto.value * 2.34} dogecoins`
-        }
-        else if(select1.value == 2 && select2.value == 1){
-            resultado.innerHTML = `${numberCripto.value} euros são ${numberCripto.value * 0.000035} bitcoins`
-        }
-        else if(select1.value == 2 && select2.value == 2){
-            resultado.innerHTML = `${numberCripto.value} euros são ${numberCripto.value * 0,00051} ethereums`
-        }
-        else if(select1.value == 2 && select2.value == 3){
-            resultado.innerHTML = `${numberCripto.value} euros são ${numberCripto.value * 12.20} dogecoins`
-        }
-        else if(select1.value == 3 && select2.value == 1){
-            resultado.innerHTML = `${numberCripto.value} dólares são ${numberCripto.value * 0.000033} bitcoins`
-        }
-        else if(select1.value == 3 && select2.value == 2){
-            resultado.innerHTML = `${numberCripto.value} dólares são ${numberCripto.value * 0.00048} ethereums`
-        }
-        else if(select1.value == 3 && select2.value == 3){
-            resultado.innerHTML = `${numberCripto.value} dólares são ${numberCripto.value * 11.43} dogecoins`
-        }
-    }
+    text()
 }
+
+const converter = () => {
+    const result = document.getElementById('resultado')
+    const first = document.getElementById('select1')
+    const second = document.getElementById('select2')
+    result.innerHTML = texto === 'normal' ? (first.value * second.value).toFixed(2) : (first.value / second.value).toFixed(7);
+}
+
+const generateOptions = async () => {
+    const options = await loadCoinValues()
+    const select = document.getElementById("select1");
+    options.forEach(option => {
+        select.options.add(new Option(option.coin, option.value))
+    })
+}
+
+generateOptions()
