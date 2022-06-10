@@ -6,7 +6,7 @@
 body {
     font-size: 16px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #f44926;
+    background-color: #ddc6f8;
 }
 
 ul {
@@ -20,7 +20,7 @@ a {
 /* formatacao dos menus de topo */
 
 #menu-topo1 {
-    width: 70%;
+    width: 100%;
     height: 80px;
     background-color: #762fcf;
 }
@@ -85,7 +85,6 @@ a {
 }
 
 #caixa {
-    float: left;
     padding: 5px;
     width: 720px;
     margin: auto;
@@ -127,8 +126,6 @@ a {
 
 .converta li {
     float: right;
-    position: relative;
-    left: 110px
 }
 
 .converta ul a {
@@ -151,7 +148,6 @@ a {
 }
 .carrosel, .logo{
     position: absolute;
-    left: 100px;
 }
 .carrosel{
     margin-left: 110px;
@@ -160,13 +156,13 @@ a {
     position: relative;
 }
 
-
-
 /* formatacao do main */
 
 #parentCripto{
+    margin: auto;
+    background: url(../assets/fundo-caixa.png);
     display: flex;
-    width: 50%;
+    width: 750px;
 }
 
 .box {
@@ -176,8 +172,6 @@ a {
     width: 50%;
     height: 300px;
     display: block;
-    position: relative;
-    left: 100px;
 }
 #criptoMoeda{
     border-radius: 10px;
@@ -193,22 +187,24 @@ a {
     width: 50%;
 }
 
-#criptos{
-    width: 65px;
+#selectCripto1{
+    width: auto;
 }
 
 #botaoConversao{
-    position: relative;
-    left: 130px;
+    margin: auto;
+    position: absolute;
+    left: 150px;
     background-color: #762fcf;
     color: white;
 }
 
-#moedaCri{
+#numberCripto1{
     position: relative;
     left: 5px;
     width: 100px;
 }
+
 
 #convert2{
     position: relative;
@@ -216,11 +212,11 @@ a {
     display: flex;
 }
 
-#moedas{
-    width: 65px;
+#selectMoeda1{
+    width: 82px;
 }
 
-#moedaCri2{
+#numberMoeda1{
     position: relative;
     left: 5px;
     width: 100px;
@@ -233,35 +229,28 @@ a {
 
 #converse1{
     position: relative;
-    align-content: center;
-    left: 50px;
+    left: 70px;
     display: flex;
-    width: 50%;
 }
 
-#moeds{
-    width: 100px;
-    position: relative;
-    right: 5px;
+#selectMoeda2{
+    width: 82px;
 }
 
 #converse2{
     position: relative;
-    align-content: center;
-    left: 50px;
+    left: 70px;
     display: flex;
-    width: 50%;
 }
 
-#cripts{
-    width: 60px;
-    position: relative;
-    right: 5px;
+#selectCripto2{
+    width: auto;
 }
 
-#convers{
+#botaoConversao2{
+    margin: auto;
     position: relative;
-    left: 130px;
+    left: 150px;
     background-color: #762fcf;
     color: white;
 }
@@ -278,6 +267,25 @@ a {
     width: 100px;
 }
 
+#resultado{
+text-align: center;
+color: white;
+background-color: #762fcf;
+border: 1px solid black;
+width: 150px;
+position: absolute;
+right: 100px;
+}
+
+#resultado2{
+    text-align: center;
+    color: white;
+    background-color: #762fcf;
+    border: 1px solid black;
+    width: 150px;
+    position: absolute;
+    right: 100px;
+}
 
 h1{
     text-align: center;

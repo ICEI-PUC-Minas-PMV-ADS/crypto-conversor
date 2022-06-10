@@ -156,140 +156,15 @@ a {
     position: relative;
 }
 
-/* formatacao do main */
 
-#parentCripto{
+
+/* formatacao do main */
+#conteudo {
+    border: 1px solid red;
     margin: auto;
     background: url(../assets/fundo-caixa.png);
-    display: flex;
-    width: 750px;
-}
-
-.box {
-    flex: 1;
-    border: 2px solid #762fcf;
-    margin:10px;
-    width: 50%;
-    height: 300px;
-    display: block;
-}
-#criptoMoeda{
-    border-radius: 10px;
-    background-color: white;
-    position: relative;
-}
-
-#convert1{
-    position: relative;
-    align-content: center;
-    left: 70px;
-    display: flex;
-    width: 50%;
-}
-
-#selectCripto1{
-    width: auto;
-}
-
-#botaoConversao{
-    margin: auto;
-    position: absolute;
-    left: 150px;
-    background-color: #762fcf;
-    color: white;
-}
-
-#numberCripto1{
-    position: relative;
-    left: 5px;
-    width: 100px;
-}
-
-
-#convert2{
-    position: relative;
-    left: 70px;
-    display: flex;
-}
-
-#selectMoeda1{
-    width: 82px;
-}
-
-#numberMoeda1{
-    position: relative;
-    left: 5px;
-    width: 100px;
-}
-#moedaCripto{
-    border-radius: 10px;
-    background-color: white;
-    position: relative;
-}
-
-#converse1{
-    position: relative;
-    left: 70px;
-    display: flex;
-}
-
-#selectMoeda2{
-    width: 82px;
-}
-
-#converse2{
-    position: relative;
-    left: 70px;
-    display: flex;
-}
-
-#selectCripto2{
-    width: auto;
-}
-
-#botaoConversao2{
-    margin: auto;
-    position: relative;
-    left: 150px;
-    background-color: #762fcf;
-    color: white;
-}
-
-#moedscrs{
-    position: relative;
-    left: 5px;
-    width: 100px;
-}
-
-#cripsmoeds{
-    position: relative;
-    left: 5px;
-    width: 100px;
-}
-
-#resultado{
-text-align: center;
-color: white;
-background-color: #762fcf;
-border: 1px solid black;
-width: 150px;
-position: absolute;
-right: 100px;
-}
-
-#resultado2{
-    text-align: center;
-    color: white;
-    background-color: #762fcf;
-    border: 1px solid black;
-    width: 150px;
-    position: absolute;
-    right: 100px;
-}
-
-h1{
-    text-align: center;
-    color: #762fcf;
+    width: 720px;
+    padding: 15px;
 }
 
 /* formatacao do footer */
