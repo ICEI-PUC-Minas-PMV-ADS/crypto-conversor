@@ -1,0 +1,366 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #ddc6f8;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* formatacao dos menus de topo */
+
+#menu-topo1 {
+    width: 100%;
+    height: 80px;
+    background-color: #762fcf;
+}
+
+.menu-1 {
+    width: 720px;
+    margin: auto;
+}
+
+.menu-1 ul {
+    float: left;
+    margin-top: 20px;
+    border: 1px transparent;
+}
+
+.menu-1 ul li {
+    float: left;
+}
+
+.menu-1 ul a {
+    background: #f44926;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    display: block;
+    cursor: pointer;
+    line-height: 1.1em;
+    font-size: .85em;
+    color: white;
+}
+
+.home {
+    border-radius: 20px 0 0 20px;
+}
+
+.contato {
+    border-radius: 0 20px 20px 0;
+}
+
+.menu-1 ul li a:hover {
+    transition: .4s;
+    transform: scale(1.05);
+    color: #762fcf;
+}
+
+#login ul {
+    float: right;
+}
+
+.conectar {
+    border-radius: 20px 0 0 20px;
+}
+
+.conta {
+    border-radius: 0 20px 20px 0;
+}
+
+#caixa-face {
+    border: 1px solid red;
+    width: 100%;
+    height: 160px;
+    background: #f44926;
+}
+
+#caixa {
+    padding: 5px;
+    width: 720px;
+    margin: auto;
+    height: 100%;
+}
+
+.logo {
+    float: left;
+}
+.carrosel{
+    outline: 1px solid black;
+    width: 500px;
+    height: 160px;
+    margin: -5px auto;
+    overflow: hidden;
+}
+.carrosel ul{
+    width: 2000px;
+    height: 160px;
+    display: flex;
+}
+
+.carrosel li{
+    position: relative;
+    animation: slide 20s infinite ease;
+}
+
+@keyframes slide{
+    0%{left: 0px;}
+    25%{left: -500px;}
+    50%{left: -1000px;}
+    100%{left: -1500px;}
+}
+
+.converta ul {
+    float: right;
+    margin-top: 55px;
+}
+
+.converta li {
+    float: right;
+}
+
+.converta ul a {
+    width: 200px;
+    border-radius: 30px;
+    background: #762fcf;
+    text-transform: uppercase;
+    padding: 20px;
+    display: block;
+    cursor: pointer;
+    line-height: 1.1em;
+    font-size: 1.1em;
+    color: white;
+    text-align: center;
+}
+
+.converta ul li a:hover {
+    transition: .4s;
+    transform: scale(1.05);
+}
+.carrosel, .logo{
+    position: absolute;
+}
+.carrosel{
+    margin-left: 110px;
+}
+.converta{
+    position: relative;
+}
+
+/* formatacao do main */
+
+#parentCripto{
+    margin: auto;
+    background: url(../assets/fundo-caixa.png);
+    display: flex;
+    width: 750px;
+}
+
+.box {
+    flex: 1;
+    border: 2px solid #762fcf;
+    margin:10px;
+    width: 50%;
+    height: 300px;
+    display: block;
+}
+#criptoMoeda{
+    border-radius: 10px;
+    background-color: white;
+    position: relative;
+}
+
+#convert1{
+    position: relative;
+    align-content: center;
+    left: 70px;
+    display: flex;
+    width: 50%;
+}
+
+#selectCripto1{
+    width: auto;
+}
+
+#botaoConversao{
+    margin: auto;
+    position: absolute;
+    left: 150px;
+    background-color: #762fcf;
+    color: white;
+}
+
+#numberCripto1{
+    position: relative;
+    left: 5px;
+    width: 100px;
+}
+
+
+#convert2{
+    position: relative;
+    left: 70px;
+    display: flex;
+}
+
+#selectMoeda1{
+    width: 82px;
+}
+
+#numberMoeda1{
+    position: relative;
+    left: 5px;
+    width: 100px;
+}
+#moedaCripto{
+    border-radius: 10px;
+    background-color: white;
+    position: relative;
+}
+
+#converse1{
+    position: relative;
+    left: 70px;
+    display: flex;
+}
+
+#selectMoeda2{
+    width: 82px;
+}
+
+#converse2{
+    position: relative;
+    left: 70px;
+    display: flex;
+}
+
+#selectCripto2{
+    width: auto;
+}
+
+#botaoConversao2{
+    margin: auto;
+    position: relative;
+    left: 150px;
+    background-color: #762fcf;
+    color: white;
+}
+
+#moedscrs{
+    position: relative;
+    left: 5px;
+    width: 100px;
+}
+
+#cripsmoeds{
+    position: relative;
+    left: 5px;
+    width: 100px;
+}
+
+#resultado{
+text-align: center;
+color: white;
+background-color: #762fcf;
+border: 1px solid black;
+width: 150px;
+position: absolute;
+right: 100px;
+}
+
+#resultado2{
+    text-align: center;
+    color: white;
+    background-color: #762fcf;
+    border: 1px solid black;
+    width: 150px;
+    position: absolute;
+    right: 100px;
+}
+
+h1{
+    text-align: center;
+    color: #762fcf;
+}
+
+/* formatacao do footer */
+footer {
+    clear: both;
+    background: #762fcf;
+    width: 100%;
+    height: 75px;
+}
+#menu-rodape ul{
+    display: flex;
+    display: inline-block;
+}
+.m-s{
+    display: flex;
+    position: relative;
+    top: 20%;
+    justify-content: center;
+}
+.m-s a{
+    display: inline-flex;
+    width: 40px;
+    height: 40px;
+    background-color: #f44926;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-size: 23px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.m-s a:hover{
+    transition: .4s;
+    transform: scale(1.25);
+}
+
+/*Formatação tela serviços*/
+
+#tabela-servico {
+    width: 100%;
+    font-size: 16px;
+    padding: 15px;
+    text-align: center;
+    vertical-align: top;
+    
+}
+
+th, tr, tr {
+    padding: 15px;
+    vertical-align: top;
+    
+}
+
+.titulo-tabela {
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.imagem-servico {
+    width: 33%
+}
+
+/*Formatação do formulário*/
+form {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    padding-bottom: 60px;
+    display: inline-block;
+    height: 500px;
+    
+}

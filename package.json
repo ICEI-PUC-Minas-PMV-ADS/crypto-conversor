@@ -1,0 +1,37 @@
+{
+  "name": "crypto-conversor",
+  "version": "0.4.3",
+  "description": "Projeto de conversão de criptomoedas do primeiro período do curso de Análise e Desenvolvimento de Sistemas da PUC Minas Virtual",
+  "main": "src/index.html",
+  "directories": {
+    "doc": "docs",
+    "presentation": "presentation",
+    "source": "src"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ICEI-PUC-Minas-PMV-ADS/crypto-conversor.git"
+  },
+  "keywords": [],
+  "contributors": [
+    "Aaron Duarte Dalla <aaron.dalla@gmail.com> (https://github.com/aarondalla)",
+    "Gabriel Miranda Cangussu <g.cangussu@hotmail.com> (https://github.com/gamirca)",
+    "Iago Ferreira <iago-ferreira@outlook.com> (https://www.github.com/iagxferreira)",
+    "Matheus Henique Rodrigues <matheusr94@live.com> (https://github.com/mths1094)",
+    "Renan Costa Cunha <r3n4ncc@gmail.com> (https://github.com/RENANCC1994)",
+    "Tafarel Luis de Mello <tafarel.luis.mello@gmail.com> (https://github.com/Tafarel-Mello)",
+    "Thiago Costa Prates <thiagoprates@hotmail.com> (https://github.com/tprates)"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ICEI-PUC-Minas-PMV-ADS/crypto-conversor/issues"
+  },
+  "homepage": "https://github.com/ICEI-PUC-Minas-PMV-ADS/crypto-conversor#readme",
+  "devDependencies": {
+    "jest": "^28.1.0",
+    "node-fetch": "^3.2.5"
+  }
+}

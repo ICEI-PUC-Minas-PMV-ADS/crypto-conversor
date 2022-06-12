@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <title>Crypto-Conversor</title>
+
+</head>
+
+<body>
+    <header class="cemporcento cor1">
+        <!--Inicio do cabecalho-->
+        <div class="container-sm" id="topo">
+
+            <nav class="nav-bar navbar-expand-md navbar-dark cabecalho">
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navegacao"
+                    aria-controls="navegacao" aria-label="toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div id="topo">
+                    <div class="collapse navbar-collapse" id="navegacao">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="index.html">home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="conversor.html">conversor</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="services.html">serviços</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">contato</a>
+                            </li>
+                        </ul>
+                        <div class="input-group entrar">
+                            <a class="btn btn-lg cor-btn user" href="log-in.html" type="submit" value="entrar">Entrar</a>
+                            <a class="btn btn-lg cor-btn user" href="create-account.html" type="submit" value="Criar conta">Criar conta</a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </nav>
+        </div>
+    </header>
+    <!--Final do cabecalho-->
+
+    <main>
+        <div>
+            <div class="cemporcento cor2">
+                <!-- Inicio da sessao Log in-->
+                <section class="container-md espaco2 login text-center form-login">
+
+                    <div class="form-control form-control-lg form-login user2">
+
+                        <form action="">
+                            <img class="logo-img espaco3" src="images/logo-final.png" alt="Logo crypto-conversor">
+
+                            <h4 class="title">Entrar</h4>
+
+                            <fieldset>
+                                <legend>Usuario</legend>
+                                <label for="endereco-email" class="sr-only">Usuario</label>
+                                <input type="email" id="endereco-email" class="form-control espaco3 user2"
+                                    placeholder="Digite seu E-mail aqui" required autofocus>
+
+                                <legend>Senha</legend>
+                                <label for="senha" class="sr-only">Senha</label>
+                                <input type="password" id="senha" placeholder="Digite sua senha aqui"
+                                    class="form-control espaco3 user2">
+                            </fieldset>
+
+                            <div class="form-check form-switch">
+                                <label class="form-check-label">
+                                    <h3> <input type="checkbox" class="form-check-input" value="Lembrar de mim"> Lembrar
+                                        de mim </h3>
+                                </label>
+                            </div>
+
+                            <div class="espaco3">
+                                <button class="btn btn-lg cor-btn user btn-login">Entrar</button>
+                            </div>
+
+                            <div class="espaco3">
+                                <button class="btn btn-lg cor-btn user btn-login">Não possui conta? Criar uma</button>
+                            </div>
+                        </form>
+                    </div>
+
+                </section>
+
+            </div>
+            <!--Final da sessao Log in-->
+
+            <div class="cemporcento cor4">
+                <section class="container-md espaco">
+                    <div>
+                        <h3 class="em-alta">Criptomoedas em alta</h3>
+                    </div>
+                    <article class="espaco">
+                        <img class="grafico" src="images/grafico-landing.jpg"
+                            alt="grafico de variacao de mercado de cryptos">
+                    </article>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <footer class="cemporcento cor1">
+        <!-- inicio do roda pe -->
+        <section class="rodape">
+            <div class="m-s container-md">
+                <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+        </section>
+    </footer> <!-- Final do roda pe -->
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -6,7 +6,9 @@
 
 `Primeiro Semestre - 2022/01`
 
-Nosso projeto chama-se **CRYPTO-CONVERSOR**, uma calculadora de conversões de criptomoedas rápida e de fácil utilização com o intuito de melhorar a experiencia de investidores e ajudar integração daqueles que querem começar neste universo monetário digital.
+[![Publish to gh-pages](https://github.com/ICEI-PUC-Minas-PMV-ADS/crypto-conversor/actions/workflows/publish.yml/badge.svg)](https://github.com/ICEI-PUC-Minas-PMV-ADS/crypto-conversor/actions/workflows/publish.yml)
+
+Nosso projeto chama-se **CRYPTO-CONVERSOR**, uma calculadora de conversões de criptomoedas rápida e de fácil utilização com o intuito de melhorar a experiencia de investidores e ajudar integração daqueles que querem começar neste universo monetário digital. </br>
 Nosso foco será melhorar a experiencia do usuário e trazer um pouco de luz a este assunto muitas vezes cobiçado pelos possíveis ganhos mas temido pela falta de informações de fácil entendimento e pela linguagem própria deste mercado.
 
 # Integrantes
