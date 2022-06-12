@@ -1,0 +1,15 @@
+#cotacao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    padding: 10px;
+}
+
+tr {
+    padding: 10px;
+}
+
+td {
+    padding: 5px;
+}

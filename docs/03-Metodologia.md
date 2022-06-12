@@ -14,7 +14,7 @@ Ambiente                                 | Plataforma  |  Link de Acesso
  Repositório de código fonte             |  GitHub     |  https://github.com/ICEI-PUC-Minas-PMV-ADS/crypto-conversor   
  Documentos do projeto                   |  GitHub     |  https://github.com/ICEI-PUC-Minas-PMV-ADS/crypto-conversor/projects
  Projeto de Interface e  Wireframes      |  Figma      |  https://www.figma.com/file/SIyHLd7Ac93NYTJUTCdpuw/Crypto-Project?node-id=0%3A1
- Gerenciamento do Projeto                |  Trello     |  https://trello.com/b/OgaaFkog/projeto-cripto </br> https://github.com/ICEI-PUC-Minas-PMV-ADS/crypto-conversor/projects
+ Gerenciamento do Projeto                |  GitHub - Projects     |  https://github.com/ICEI-PUC-Minas-PMV-ADS/crypto-conversor/projects
       
                        
 ## Controle de Versão
@@ -48,7 +48,7 @@ A equipe está organizada da seguinte forma:
 
 * _**Scrum master**_: Aaron Duarte Dalla
 * _**Product owner**_: Iago José Silva Ferreira
-* _**Equipe de desenvolvimento**_:
+* _**Equipe de *desenvolvimento***_:
     * Gabriel Miranda Cangussu
     * Matheus Henique Rodrigues
     * Thiago Costa Prates
@@ -83,7 +83,7 @@ As ferramentas utilizadas no projeto estão abaixo enumeradas:
 
 > - [Microsoft Teams](https://www.microsoft.com/pt-br/microsoft-teams/group-chat-software): Ferramenta utilizada para realizar as reuniões de equipe, assim como as reuniões semanais em conjunto com a coordenadora do projeto.
 > - [Microsoft Office](https://www.office.com/): Ferramenta utilizada em suas diversas funcionalidades. O Microsoft Word foi usado para a confecção da documentação do projeto, o Power Point foi a ferramenta escolhida para a apresentação da proposta de projeto. O próprio sistema Office serviu como local de compartilhamento de documentos.
-> - [Trello](https://trello.com/): Ferramenta utilizada para a organização e separação de tarefas no projeto.
+> - [GitHub Projects](https://github.com/ICEI-PUC-Minas-PMV-ADS/crypto-conversor/projects?type=beta): Ferramenta utilizada para a organização e separação de tarefas no projeto.
 
 **Ferramentas de Desenho de Tela (_wireframing_):**
 
