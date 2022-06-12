@@ -346,6 +346,12 @@ input {
     left: 5px;
     width: 100px;
 }
+.icon-invert{
+    width: 5%;
+    font-size: 2.2rem;
+    margin-top: auto;
+    margin-bottom: auto;
+}
 
 /* ----------- Log In ----------------- */
 
@@ -404,3 +410,53 @@ footer {
 .teste {
     border: 1px solid red;
 }
+<<<<<<< HEAD
+
+th, tr, tr {
+    padding: 15px;
+    vertical-align: top;
+    
+}
+
+.titulo-tabela {
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.imagem-servico {
+    width: 33%
+}
+
+
+
+/*Formatação Cadastro Conta*/
+
+.criar-conta {
+    width: 100%;
+    font-size: 16px;
+    padding: 15px;
+    text-align: center;
+    vertical-align: top;
+}
+
+h1{
+    text-align: center;
+}
+
+form{
+    text-align: center;
+}
+
+label{
+    display: inline-block;
+    text-align: center;
+}
+
+div{
+    display: block;
+    font-size: larger;
+}
+=======
+>>>>>>> 7fb198f7b4e04e65217a381f0c944d2d910bde24
