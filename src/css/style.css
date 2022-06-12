@@ -346,6 +346,12 @@ input {
     left: 5px;
     width: 100px;
 }
+.icon-invert{
+    width: 5%;
+    font-size: 2.2rem;
+    margin-top: auto;
+    margin-bottom: auto;
+}
 
 /* ----------- Log In ----------------- */
 
