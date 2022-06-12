@@ -1,6 +1,6 @@
 # Especificações do Projeto
 
-Com base nos estudos e pesquisas desenvolvidos pelo grupo em parceria com usuários reais, levando em consideração suas necessidades e dificuldades do dia a dia, podemos agora consolidar estas propostas de melhoria em forma de *personas* e *histórias de usuário*.
+Com base nos estudos e pesquisas desenvolvidos pelo grupo em parceria com potenciais usuários, levando em consideração suas necessidades e dificuldades do dia a dia, podemos agora consolidar estas propostas de melhoria em forma de *personas* e *histórias de usuário*.
 
 ## Personas
 
@@ -75,10 +75,10 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 | ID                                                                                                                                                                                                                    | Descrição do Requisito                                                                                                                                                                                                            | Prioridade |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------|
-| RF-001                                                                                                                                                                                                                | O site apresentará na página principal a cotação de algumas criptomoedas que estiverem em alta. Serão obtidas via API.                                                                                                            | ALTA       | 
+| RF-001                                                                                                                                                                                                                | O site apresentará na página principal a cotação de algumas criptomoedas de maior conhecimento. Serão obtidas via API.                                                                                                            | ALTA       | 
 | RF-002                                                                                                                                                                                                                | O site permitirá ao usuário informar a moeda fiduciária e/ou criptoativo "de entrada” e a moeda fiduciária e/ou criptoativo "alvo” para conversão.                                                                                | ALTA       |
 | RF-003                                                                                                                                                                                                                | O site permitirá ao usuário informar várias moedas fiduciárias e/ou criptoativos "de entrada” e converter os valores obtidos para outra moeda fiduciária e/ou criptoativo "alvo”.                                                 | ALTA       |
-| RF-004                                                                                                                                                                                                                | O site apresentará para cada moeda fiduciária e/ou criptoativo um ícone correspondente para rápida identificação visual.                                                                                                          | MÉDIA      |
+| RF-004                                                                                                                                                                                                                | O site apresentará para cada moeda fiduciária e/ou criptoativo um ícone correspondente para rápida identificação visual.                                                                                                          | BAIXA      |
 | RF-005                                                                                                                                                                                                                | O site terá uma funcionalidade que permita ao usuário informar uma carteira composta por diversas moedas fiduciárias e/ou criptoativos e expressar os valores obtidos em uma outra moeda e/ou criptoativo escolhido pelo usuário. | MÉDIA      |
 | RF-006                                                                                                                                                                                                                | O site terá uma página em que será possível acessar os serviços disponíveis, quais sejam: conversão, cálculo de carteira e monitoramento de mercado.                                                                              | ALTA       |
 | RF-007                                                                                                                                                                                                                | O site terá uma página em que será possível acessar um formulário de contato para que o usuário possa enviar dúvidas, sugestões ou críticas aos desenvolvedores do projeto.                                                       |            |
@@ -89,8 +89,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |ID     | Descrição do Requisito  |Prioridade |
 |---|---|---|
 | RNF-001 | O site deverá ser publicado na internet. | MÉDIA | 
-| RNF-002 | O site deverá ser responsivo. | MÉDIA | 
-| RNF-003 | O site poderá ser acessado por diversos navegadores, inclusive pelo celular. | MÉDIA |
+| RNF-002 | O site deverá ser responsivo e poderá ser acessado em diversos dispositivos e equipamentos. | MÉDIA | 
+| RNF-003 | O site deverá ser compatível com diversos navegadores | MÉDIA |
 
 
 
