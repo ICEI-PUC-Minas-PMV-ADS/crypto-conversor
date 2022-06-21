@@ -382,6 +382,15 @@ input {
     min-width: 20rem;
 }
 
+.fa-eye{
+    display: flex;
+    margin-left: auto;
+    margin-right: 1rem;
+    margin-top: -3.5rem;
+    cursor: pointer;
+    color: lightgrey;
+}
+
 
 
 /* ---------footer---------- */
@@ -425,7 +434,6 @@ footer {
 .teste {
     border: 1px solid red;
 }
-<<<<<<< HEAD
 
 th, tr, tr {
     padding: 15px;
@@ -473,5 +481,3 @@ div{
     display: block;
     font-size: larger;
 }
-=======
->>>>>>> 7fb198f7b4e04e65217a381f0c944d2d910bde24
