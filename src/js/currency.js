@@ -42,7 +42,7 @@ const loadCoinValues = async () => {
 };
 
 const generateTable = async () => {
-  const tableHeaders = ["Coin name", "Code", "Value"];
+  const tableHeaders = ["Nome da moeda", "Código", "Valor"];
   const rows = await loadCoinValues();
   const article = document.getElementById("cotacao");
   const table = document.createElement("table");
