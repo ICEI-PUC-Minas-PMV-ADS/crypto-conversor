@@ -66,14 +66,13 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 ### Requisitos Funcionais
 
-| ID     | Descrição do Requisito                                                                                                                                                                                                            | Prioridade |
-| ------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- |
-| RF-001 | O site apresentará na página principal as opções de serviço disponíveis no site. São elas: conversão de valores, calculo de carteira e monitoramento do mercado.                                                                  | ALTA       |
-| RF-002 | O site permitirá ao usuário informar a moeda fiduciária e/ou criptoativo "de entrada” e a moeda fiduciária e/ou criptoativo "alvo” para conversão.                                                                                | ALTA       |
-| RF-003 | O site terá uma página em que será possível acompanhar a cotação das criptomoedas no mercado financeiro.                                                                                                     | BAIXA      |
-| RF-004 | O site terá uma página em que será possível acessar um formulário de contato para que o usuário possa enviar dúvidas, sugestões ou críticas aos desenvolvedores do projeto.                                                       | MÉDIA      |
-| RF-005 | Os campos presentes no formulário de contato são de preenchimento obrigatório, salvo o referente ao número de telefone, o que traz mais credibilidade ao contato do usuário, bem como minimiza o recebimento de spam.             | ALTA       |
-
+| ID     | Descrição do Requisito                                                                                                                                                                                                | Prioridade |
+| ------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- |
+| RF-001 | O site apresentará na página principal as opções de serviço disponíveis no site. São elas: conversão de valores e monitoramento do mercado.                                                      | ALTA       |
+| RF-002 | O site permitirá ao usuário informar a moeda fiduciária e/ou criptoativo "de entrada” e a moeda fiduciária e/ou criptoativo "alvo” para conversão.                                                                    | ALTA       |
+| RF-003 | O site terá uma página em que será possível acompanhar a cotação das criptomoedas no mercado financeiro.                                                                                                              | BAIXA      |
+| RF-004 | O site terá uma página em que será possível acessar um formulário de contato para que o usuário possa enviar dúvidas, sugestões ou críticas aos desenvolvedores do projeto.                                           | MÉDIA      |
+| RF-005 | Os campos presentes no formulário de contato são de preenchimento obrigatório, salvo o referente ao número de telefone, o que traz mais credibilidade ao contato do usuário, bem como minimiza o recebimento de spam. | ALTA       |
 
 ### Requisitos não Funcionais
 
