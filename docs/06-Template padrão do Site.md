@@ -25,13 +25,18 @@ Tela contendo o serviço de conversão de moedas digitais e fiduciárias.
 
 ![Landing page](img/tela_conversao.png)
 
+### Página de cotações
+
+Tela contendo as cotações de algumas moedas selecionadas.
+
+![Landing page](img/tela_cotacoes.png)
+
 
 ### Página de login
 
 Tela contendo formulário para realizar login no site
 
 ![Landing page](img/tela_entrar.png)
-
 
 
 ### Página de contato
