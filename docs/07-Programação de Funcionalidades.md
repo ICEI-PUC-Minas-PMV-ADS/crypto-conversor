@@ -10,7 +10,7 @@ A tela principal do sistema apresenta possibilidade de inscrição, fazer login 
 
 __Requisitos atendidos__
 * RF-001;
-* RF-006;
+* RF-004;
 
 __Artefatos da funcionalidade__
 * index.html;
@@ -38,11 +38,12 @@ __Requisitos atendidos__
 __Artefatos da funcionalidade__
 * conversor.html;
 * style.css;
-* normalize.css.
+* normalize.css;
+* conversor.js
 
 __Instruções de acesso__
 
-1. Abra um navegador de internet e informe a seguinte URL: https://icei-puc-minas-pmv-ads.github.io/crypto-conversor/. 2. A landing page será exibida pelo navegador.
+1. Abra um navegador de internet e informe a seguinte URL: https://icei-puc-minas-pmv-ads.github.io/crypto-conversor/. A landing page será exibida pelo navegador.
 2. Clique o botão "Converta agora", na seção "Nossos serviços" ou clique no item "conversor" presente no menu superior da página;
 3. Selecione a criptomoeda que deseja converter;
 4. Selecione a moeda fiduciária que deseja ver o valor correspondente à criptomoeda;
@@ -51,6 +52,31 @@ __Instruções de acesso__
 
 Se deseja fazer a conversão de moeda fiduciária em moeda digital, basta utilizar o botão "inverter".
 
+### Monitoramento do preço de alguns ativos selecionados
+
+Essa tela permite que o usuário veja em tempo real a cotação de algumas criptomoedas selecionadas.
+
+![Landing page](img/tela_cotacoes.png)
+
+__Requisitos atendidos__
+* RF-003;
+
+__Artefatos da funcionalidade__
+* monitore_mercado.html;
+* style.css;
+* normalize.css;
+* currency.js
+
+__Instruções de acesso__
+
+1. Abra um navegador de internet e informe a seguinte URL: https://icei-puc-minas-pmv-ads.github.io/crypto-conversor/monitore_mercado.html
+2. A página será exibida pelo navegador.
+3. Alternativamente pode-se seguir os seguintes passos:
+4. Abra um navegador de internet e informe a seguinte URL: https://icei-puc-minas-pmv-ads.github.io/crypto-conversor/. A landing page será exibida pelo navegador.
+5. Clique o botão "Monitores agora", na seção "Nossos serviços".
+
+
+
 ### Dados para contato
 
 Essa tela permite que o usuário envie uma mensagem para a equipe do projeto.
@@ -58,8 +84,7 @@ Essa tela permite que o usuário envie uma mensagem para a equipe do projeto.
 ![Landing page](img/tela_contato.png)
 
 __Requisitos atendidos__
-* RF-007;
-* RF-008.
+* RF-005;
 
 __Artefatos da funcionalidade__
 * contact.html;
@@ -74,3 +99,27 @@ __Instruções de acesso__
 3. Preencha os campos disponíveis;
 4. Clique no botão "Enviar minha mensagem"
 
+
+
+### Formulário para login
+
+Essa tela permite que o usuário envie uma mensagem para a equipe do projeto.
+
+![Landing page](img/tela_entrar.png)
+
+__Requisitos atendidos__
+* RF-004;
+
+__Artefatos da funcionalidade__
+* log-in.html;
+* style.css;
+* normalize.css;
+* create-account.js
+
+
+__Instruções de acesso__
+
+1. Abra um navegador de internet e informe a seguinte URL: https://icei-puc-minas-pmv-ads.github.io/crypto-conversor/. 2. A landing page será exibida pelo navegador.
+2. Clique no item "criar conta" presente no menu superior da página;
+3. Preencha os campos disponíveis;
+4. Clique no botão "Criar minha conta"
