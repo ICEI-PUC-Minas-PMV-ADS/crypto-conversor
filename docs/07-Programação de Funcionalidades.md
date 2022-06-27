@@ -84,7 +84,7 @@ Essa tela permite que o usuário envie uma mensagem para a equipe do projeto.
 ![Landing page](img/tela_contato.png)
 
 __Requisitos atendidos__
-* RF-004;
+* RF-005;
 
 __Artefatos da funcionalidade__
 * contact.html;
@@ -99,3 +99,27 @@ __Instruções de acesso__
 3. Preencha os campos disponíveis;
 4. Clique no botão "Enviar minha mensagem"
 
+
+
+### Formulário para login
+
+Essa tela permite que o usuário envie uma mensagem para a equipe do projeto.
+
+![Landing page](img/tela_entrar.png)
+
+__Requisitos atendidos__
+* RF-004;
+
+__Artefatos da funcionalidade__
+* log-in.html;
+* style.css;
+* normalize.css;
+* create-account.js
+
+
+__Instruções de acesso__
+
+1. Abra um navegador de internet e informe a seguinte URL: https://icei-puc-minas-pmv-ads.github.io/crypto-conversor/. 2. A landing page será exibida pelo navegador.
+2. Clique no item "criar conta" presente no menu superior da página;
+3. Preencha os campos disponíveis;
+4. Clique no botão "Criar minha conta"
